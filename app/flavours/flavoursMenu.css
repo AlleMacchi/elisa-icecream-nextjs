@@ -1,0 +1,40 @@
+.flavoursMenu-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #fffef1;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.flavoursMenu-title{
+    grid-column: 1 / 4;  
+    text-align: center;
+    text-transform: uppercase;
+}
+.flavoursMenu-title>h1{
+    font-size: calc(100vh/20);
+    color: white;
+}
+.flavoursMenu-item{
+    background-color: transparent;
+    padding: 10px;
+
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flex;
+    display:flex;
+    -webkit-flex-direction:row;
+    flex-direction:row;
+    -webkit-justify-content:center;
+    justify-content:center;
+}
+.flavoursMenu-item>img{
+    width: 70%;
+    height: 100%;
+}
+
+@media (max-width: 992px) {
+    .flavoursMenu-item {
+        grid-column: 1 / 4; 
+    }
+  }

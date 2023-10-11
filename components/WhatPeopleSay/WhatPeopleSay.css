@@ -1,0 +1,33 @@
+.whatSay-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #936f62;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.whatSay-title{
+    grid-column: 1 / 4;  
+}
+.whatSay-title>h1{
+    font-size: calc(100vh/20);
+    color: white;
+}
+.whatSay-container>div {
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flex;
+    display:flex;
+    -webkit-flex-direction:row;
+    flex-direction:row;
+    -webkit-justify-content:center;
+    justify-content:center;
+
+}
+
+  @media screen and (max-width: 992px) {
+    .whatSay-container>div{
+        grid-column: 1 / 4; 
+    }
+  }

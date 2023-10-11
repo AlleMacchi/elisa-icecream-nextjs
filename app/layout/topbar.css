@@ -1,0 +1,44 @@
+.topbar {
+    box-shadow: 0px 5px 10px 0px #aaa;
+    background: #BC1C24;
+    color: #fffef1;
+
+    display: flex;
+    flex-wrap: wrap;
+    font-size: calc(100vw/90);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .topbar-item-left {
+    padding-top: 10px;
+    flex: 25%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 45px;
+  }
+  .topbar-item-left>img{
+    padding-left: 20px;
+  }
+
+  .topbar-item-center {
+    padding: 10px;
+    margin-top: 10px;
+    flex: 50%;
+  }
+  .topbar-item-right {
+    padding: 10px;
+    flex: 25%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    height: 55px;
+  }
+  @media screen and (max-width: 992px) {
+      .topbar{
+        display: none;
+      }
+    }
