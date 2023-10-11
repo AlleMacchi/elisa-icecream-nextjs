@@ -22,7 +22,6 @@ body {
 }
 
 .topbar{
-  background-color: #fffef1;
   grid-area: topbar;
   position: -webkit-sticky;
   position: sticky;
