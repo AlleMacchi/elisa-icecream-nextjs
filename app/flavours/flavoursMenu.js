@@ -2,7 +2,7 @@ import "./flavoursMenu.css"
 
 export default function FlavoursMenu(){
     return(
-        <div class="flavoursMenu-container bg-fixed md:bg-fixed bg-parallax bg-cover">
+        <div class="flavoursMenu-container parallax">
             <div className='flavoursMenu-title'><h1>Our Flavours</h1></div> 
             <div class="flavoursMenu-item"> 
                 <img src="./Antica Bologna.png"></img>

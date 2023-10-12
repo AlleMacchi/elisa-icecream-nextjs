@@ -1,3 +1,13 @@
+.parallax{
+    background-image: url("/BolognaDiNotte.jpg");
+
+    min-height: 500px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .flavoursMenu-container{
     display: grid;
     grid-template-columns: auto auto auto;
