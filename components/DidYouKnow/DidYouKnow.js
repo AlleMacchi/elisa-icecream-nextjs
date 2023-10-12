@@ -2,7 +2,8 @@ import './DidYouKnow.css'
 
 const Banner = () => {
     return(
-        <div className="container-DidYouKnow bg-fixed bg-parallax bg-cover">
+        // <-- bg-fixed bg-parallax bg-cover -->
+        <div className="container-DidYouKnow container-DidYouKnow-parallax">
             <h1 className="DidYouKnow-title">the true taste of Bologna without leaving Sydney</h1>
 
             <div className="container-icons">

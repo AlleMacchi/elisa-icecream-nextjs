@@ -1,18 +1,18 @@
 .parallax{
     background-image: url("/BolognaDiNotte.jpg");
 
-    min-height: 500px; 
+    /* min-height: 500px;  */
 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
 .flavoursMenu-container{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
-    background-color: #fffef1;
+    background-color: #fffef1; 
     padding: 10px;
     padding-bottom: 30px;
 }
@@ -46,5 +46,9 @@
 @media (max-width: 992px) {
     .flavoursMenu-item {
         grid-column: 1 / 4; 
+    }
+
+    .parallax{
+        background-attachment: scroll !important;
     }
   }

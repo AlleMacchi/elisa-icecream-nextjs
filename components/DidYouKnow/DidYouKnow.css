@@ -7,6 +7,16 @@
     text-align: center;
     height: calc(100vh/2);
 }
+.container-DidYouKnow-parallax{
+    background-image: url("/BolognaDiNotte.jpg");
+
+    /* min-height: 500px;  */
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 .DidYouKnow-title{
     color: white;
     text-transform: uppercase;
@@ -43,5 +53,9 @@
     .container-icons{
         display: flex;
         flex-direction: column;
+    }
+    .container-DidYouKnow-parallax{
+   
+        background-attachment: scroll!important;
     }
 }
