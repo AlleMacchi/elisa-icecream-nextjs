@@ -1,12 +1,12 @@
 .parallax{
-    background-image: url("/BolognaDiNotte.jpg");
+    background-image: url("/Vanila flavour gelato .jpg");
 
     /* min-height: 500px;  */
-
-    background-attachment: fixed;
+    height: 50%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    position: relative;
 }
 .flavoursMenu-container{
     display: grid;
@@ -22,8 +22,9 @@
     text-transform: uppercase;
 }
 .flavoursMenu-title>h1{
+    font-weight: 700;
     font-size: calc(100vh/20);
-    color: white;
+    color: #BC1C24;
 }
 .flavoursMenu-item{
     background-color: transparent;
@@ -47,8 +48,9 @@
     .flavoursMenu-item {
         grid-column: 1 / 4; 
     }
-
-    .parallax{
-        background-attachment: scroll !important;
+    .flavoursMenu-title>h1{
+        font-size: calc(100vh/10);
+        color: #BC1C24;
+        font-weight: 700;
     }
   }

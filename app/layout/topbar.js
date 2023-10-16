@@ -10,7 +10,8 @@ export default function TopBar(){
             </div>
             <div className='topbar-item-center '>Monday - Wednesday 15:00 – 21:00 &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; Thursday to Sunday 13:00 – 22:00</div>
             <div className='topbar-item-right '>
-                <img src='/icons8-shopping-bag-50_W.png'></img>
+                {/* <img src='/icons8-shopping-bag-50_W.png'></img> */}
+                <div className="logoTopbar"> <img src="Elisa_Orizzontale_White.png" alt="Elisa Gelato logo"/> </div>
             </div>
         </div>
     )

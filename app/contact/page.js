@@ -7,9 +7,9 @@ export default function Contact() {
     return (
       <div className="main">
         <Navbar />
-        <div className='mainContent'> 
+
           <ContactDetails />
-        </div>
+
         <Footer />
       </div>
     )

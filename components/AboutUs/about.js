@@ -4,7 +4,6 @@ export default function AboutUs() {
         return ( 
             <div className="AboutUs"> 
                 <div className='About-container'>
-                    <h3>About Us</h3>
                     <h1>A love story with gelato</h1>
                     <hr></hr>
                     <p>Indulge in the sweet taste of love with Elisa's authentic gelato,

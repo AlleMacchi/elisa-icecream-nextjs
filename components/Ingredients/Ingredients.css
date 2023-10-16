@@ -1,60 +1,32 @@
-.Ingredients{
-    height: calc(100vh/2.5);
-    background-color: #fffef1;
-    height: 100%;
-}
+.Ingredients-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../public/very-fresh-ice-cream.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+    margin: 0;
+  }
 
-.Ingredients-container{
-    width: 100%;
-    display: grid;
-    grid-template-areas: 
-        "testo immagine"
-    ;
-    gap: 10px;
-    background-color: #fffef1;
-    padding: 10px;
-}
-.Ingredients-container>div{
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px 0;
-    
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-}
-.Ingredients-text{
-    text-align:left;
-    grid-area: testo;
+  .Ingredients-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .Ingredients-text>h1{
     font-size: calc(100vh/20);
-    font-weight: 700;
     text-transform: uppercase;
-    color: #BC1C24;
-}
-.Ingredients-text>hr{
-    margin: 10px;
-}
-.Ingredients-paragraph{
-    font-size: calc(100vh/60);
-    color: black;
-    font-weight:100;
-}
-.Ingredients-img{
-    grid-area: immagine;
-}
-
-.Ingredients-img>img{
-    width: calc(100vw/3);
-}
-
-@media screen and (max-width: 992px) {
-    .Ingredients-container{
-        grid-template-areas: 
-            "testo"
-            "immagine"
-        ;
-    }
-    .Ingredients-img>img{
-        width: calc(100vw);
-    }
+  }
+  .Ingredients-text>hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .Ingredients-text>p{
+    font-size: calc(100vh/50);
+    text-transform: uppercase;
   }

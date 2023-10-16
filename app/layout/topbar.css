@@ -30,13 +30,19 @@
     flex: 50%;
   }
   .topbar-item-right {
-    padding: 10px;
+    padding-right: 100px;
     flex: 25%;
-    cursor: pointer;
     display: flex;
-    justify-content: center;
-    height: 55px;
+    justify-content: right;
+    height: 100%;
   }
+
+  
+  .logoTopbar img{
+    margin: 0;
+    height: 100%;
+   }
+
   @media screen and (max-width: 992px) {
       .topbar{
         display: none;

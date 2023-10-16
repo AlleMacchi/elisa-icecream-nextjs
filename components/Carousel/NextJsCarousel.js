@@ -26,7 +26,7 @@ export default class NextJsCarousel extends Component {
                       <img src="/Carousel_2.jpg" alt="image2" />   
                   </div> 
                   <div> 
-                      <img src="/Carousel_3.png" alt="image3"/>  
+                      <img src="/Carousel_3.jpg" alt="image3"/>  
                   </div> 
               </Carousel> 
             </div> 

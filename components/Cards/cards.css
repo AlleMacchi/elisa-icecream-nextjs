@@ -1,24 +1,25 @@
 .cards-body{
-    width: 70%;
+    width: 100%;
     text-align: center;
     height: 100%;
-    background-color: white;
-    border-radius: 10px;
+    background-color: #F2F2EC;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
 }
-
+.mg-rating{
+    display: flex;
+    flex-direction: row;
+}
 .cards-body>p{
-    font-size: calc(100vh/90);
-    padding: 10%;
+    font-size: calc(100vh/70);
+    text-align: justify;
+    padding-bottom: 10px;
 }
 
 .cards-body>h1{
     color: #BC1C24;
     padding-bottom: 20px;
+    text-align: justify;
+    padding-top: 10px;
 }
-
-@media screen and (max-width: 992px) {
-    .cards-body>p{
-        font-size: calc(100vh/70);
-        padding: 5%;
-    }
-  }

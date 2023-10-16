@@ -9,7 +9,10 @@
     
 }
 .About-container{
+    padding-top: calc(100vh/33);
+    padding-bottom: calc(100vh/33);
     width: 70%;
+    
 }
 .About-container>hr{
     margin: 10px;
@@ -31,6 +34,7 @@
 margin-bottom: 20px;
 font-weight:100;
 text-transform: uppercase;
+font-size: calc(100vh/50);
 
 }
 @media screen and (max-width: 992px) {
