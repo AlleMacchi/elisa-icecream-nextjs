@@ -1,16 +1,16 @@
+import Footer from './components/footer/footer'
+import Header from './components/header/header'
+import Navbar from './components/navbar/navbar'
 import './globals.css'
-import TopBar from './layout/topbar'
-import Sidebar from './layout/sidebar'
-
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+
       <body>
-        <TopBar />
-        <Sidebar />
+        <Header />
+        <Navbar />
         {children}
-        
       </body>
     </html>
   )

@@ -1,15 +1,12 @@
-import Navbar from "@/components/Navbar/Navbar";
-import Footer from "../layout/Footer";
-import FlavoursMenu from "./flavoursMenu";
+import Footer from '../components/footer/footer'
+import styles from '../page.module.css'
+import FlavoursMenu from './flavours'
 
-export default function Flavours() {
-    return (
-      <div className="main">
-        <Navbar />
-        <div className='mainContent'> 
-          <FlavoursMenu />
-        </div>
-        <Footer />
-      </div>
-    )
-  }
+export default function Home() {
+  return (
+    <main className={styles.main}>
+      <FlavoursMenu />
+      <Footer />
+    </main>
+  )
+}

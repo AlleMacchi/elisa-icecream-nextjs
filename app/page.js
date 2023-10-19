@@ -1,21 +1,14 @@
-import AboutUs from "@/components/AboutUs/about";
-import NextJsCarousel from "@/components/Carousel/NextJsCarousel";
-import Ingredients from "@/components/Ingredients/Ingredients";
-import Navbar from "@/components/Navbar/Navbar";
-import WhatPeopleSay from "@/components/WhatPeopleSay/WhatPeopleSay";
-import Footer from './layout/Footer'
+import AuthenticGelato from './components/authentic-gelato/auth'
+import DemoCarousel from './components/carousel/ReactCarousel'
+import Footer from './components/footer/footer'
+import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <div className="main">
-        <Navbar />
-        <div className='mainContent'> 
-          <NextJsCarousel />
-          <AboutUs />
-          <Ingredients />
-          <WhatPeopleSay />
-        </div>
-        <Footer />
-    </div>
+    <main className={styles.main}>
+      <DemoCarousel />
+      <AuthenticGelato />
+      <Footer />
+    </main>
   )
 }

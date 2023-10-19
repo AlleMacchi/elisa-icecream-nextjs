@@ -1,0 +1,17 @@
+.main{
+  font-family: var(--mono-font);
+  color: var(--red);
+  position: absolute;
+  right: 0;
+  top: var(--height-header);
+  width: 75%;
+  background-color: var(--white);
+  z-index: -99;
+  /* min-height: 100vh; */
+}
+
+@media (max-width: 992px) {
+  .main{
+    width: 100%;
+  }
+}

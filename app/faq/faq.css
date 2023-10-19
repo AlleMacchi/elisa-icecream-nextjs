@@ -1,26 +1,21 @@
 .container-faq{
-    background-color: #fffef1;
+    background-color: var(--white);
     height: 100vh;
 }
 
 .faq-title{
-    font-size: calc(100vh/20);
     font-weight: 700;
-    text-transform: uppercase;
-    color: #BC1C24;
-}
-
-.faq-subtitle{
-    font-size: calc(100vh/60);
-    font-weight: 200;
+    font-size: calc(100vh/25);
+    color: var(--red);
     text-transform: uppercase;
 }
-
+.Menu-Faq{
+    border-bottom: 1px solid var(--grey-light);
+}
 @media screen and (max-width: 992px) {
     .faq-title{
-        font-size: calc(100vh/15);
-    }
-    .faq-subtitle{
-        font-size: calc(100vh/40);
+        font-size: calc(100vh/25);
+        color: var(--red);
+        font-weight: 700;
     }
   }

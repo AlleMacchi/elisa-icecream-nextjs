@@ -1,65 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Tangerine:wght@700&display=swap');
 
-* {
-  box-sizing: border-box;
-  padding: 0;
+:root{
+  /* Size */
+  --height-header: 60px;
+  --height-footer: 60px;
+
+  /* Fonts */
+  --mono-font: 'Poppins', Arial, sans-serif;
+  --hand-font: 'Tangerine', Times, serif;
+
+  /* Colors */
+  --red: #BC1C24;
+  --white: #FEFEF2;
+  --black: #212427;
+  --grey-light:#aaa;
+}
+
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
 }
 
 html,
 body {
-  height: 100vh;
-  width: 100vw;
-  display: grid;
-  grid-template-columns: 20% 1fr;
-  grid-template-rows: 60px 1fr;
-  grid-template-areas:
-    "topbar topbar"
-    "sidebar main"
-  ;
+  max-width: 100vw;
+  background-color: var(--white);
 }
 
-.topbar{
-  grid-area: topbar;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
 
-.sidebar{
-  
-  grid-area: sidebar;
-}
-
-.main{
-  background-color: #848485;
-  grid-area: main;
-  overflow: hidden;
-  overflow-y: scroll;
-}
-
-.navbar{
-  display: none;
-}
-
-.mainContent{
-  margin-top: 0px;
-}
-
-@media screen and (max-width: 992px) {
-.navbar{
-  display: block;
-}
-  body {   
-      grid-template-areas:
-        "main main"
-        "main main"
-      ;
-    }
-
-.mainContent{
-      margin-top: 70px;
-  }
-}

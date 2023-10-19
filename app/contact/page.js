@@ -1,16 +1,15 @@
-import Navbar from "@/components/Navbar/Navbar";
-import Footer from "../layout/Footer";
+import Footer from '../components/footer/footer'
+import styles from '../page.module.css'
 import ContactDetails from "./Contact";
+import ContactDetails2 from './contactCol';
 
 
 export default function Contact() {
     return (
-      <div className="main">
-        <Navbar />
-
-          <ContactDetails />
-
-        <Footer />
-      </div>
+    <main className={styles.main}>
+      {/* <ContactDetails /> */}
+      <ContactDetails2 />
+      <Footer />
+    </main>
     )
   }
