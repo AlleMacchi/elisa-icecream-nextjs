@@ -30,7 +30,10 @@ export default function Navbar(){
                 <li><a href="/faq">FAQs</a></li>
                 <li><a href="/contact">Contacts</a></li>
             </ul>
-            <div className={styles.logo}>  <a href="/"><img src='logo.jpg' alt="Elisa Gelato logo"/></a></div>
+            <div className={styles.logo}>  
+                <a className={styles.logoFull} href="/"><img src='logo.jpg' alt="Elisa Gelato logo"/></a>
+                <a className={styles.logoMobile} href="/"><img src='Elisa_Orizzontale_White.png' alt="Elisa Gelato logo"/></a>
+            </div>
         </div>
         </nav>
     )

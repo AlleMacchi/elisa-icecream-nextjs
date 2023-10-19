@@ -92,8 +92,11 @@ export default function FaqDetails(){
           </div>
         </div>
       </div>
-    </section>
+    </section>  
+    <div>
     <Footer />
+    </div>
   </div>
+  
   )
 }

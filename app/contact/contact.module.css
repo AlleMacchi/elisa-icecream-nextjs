@@ -104,4 +104,8 @@
     .right{
         flex: 100%;
     }
+
+    .field{
+      font-size: calc(100vw/35);
+    }
   }
