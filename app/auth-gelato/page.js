@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar/Navbar";
 import Footer from "../layout/Footer";
 import "../../components/AboutUs/about.css"
 import "./authGelato.css"
