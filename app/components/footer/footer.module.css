@@ -10,12 +10,12 @@
 .wrap{
     display: flex;
     flex-direction: row;
-    font-size: 10px;
+    font-size: 1rem;
     text-align: left;
 }
 
 .column{
-    padding: 0;
+    padding: 0px;
     flex: 33%;
     height: var(--height-footer);
     padding-left: 5%;
