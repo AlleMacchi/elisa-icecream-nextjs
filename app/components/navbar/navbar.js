@@ -1,6 +1,8 @@
 "use client"
 import React from "react";
 import styles from './navbar.module.css'
+import { FaInstagram, FaFacebook} from 'react-icons/fa';
+
 
 export default function Navbar(){
     const [checked, setChecked] = React.useState(false);
@@ -28,7 +30,19 @@ export default function Navbar(){
                 <li><a href="/ourstory">Our Story</a></li>
                 <li><a href="/flavours">Traditional Flavours</a></li>
                 <li><a href="/faq">FAQs</a></li>
-                <li><a href="/contact">Contacts</a></li>
+                <li><a href="/contact">Contacts</a></li>               
+                <div className={styles.wrap}>
+                <div className={styles.tradeTime} >
+                <div className={`${styles.follow} ${styles.OpeningTitle}`}>Opening hours:</div>
+                <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Wed: 3pm-9pm</div>
+                <div className={`${styles.follow} ${styles.OpeningTime}`}>Thur-Sun: 1pm-10pm</div>
+                </div>
+                <div className={styles.follow}>Follow us </div>
+                    <div className={styles.iconContainer}>
+                        <div className={styles.iconLeft}><FaFacebook className={styles.icon} /></div> 
+                        <div className={styles.iconLeft}><FaInstagram className={styles.icon}/></div> 
+                    </div>            
+                </div>
             </ul>
             <div className={styles.logo}>  
                 <a className={styles.logoFull} href="/"><img src='logo.jpg' alt="Elisa Gelato logo"/></a>

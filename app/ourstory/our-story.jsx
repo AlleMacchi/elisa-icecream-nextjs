@@ -25,12 +25,12 @@ export default function OurStory(){
 
             <div className={styles.img}>
                 <div class={styles.column}>
-                    <img src="TogliereIlGelato.jpg"></img>
-                    <img src="BolognaDiNotte.jpg"></img>
+                    <img src="IMG_5995.jpg"></img>
+                    <img src="Caramel ice cream and waffle cones stock photo.jpg"></img>
                 </div>    
                 <div class={styles.column}>
-                    <img src="Piazza_Maggiore.jpg"></img>
-                    <img src="Preparation.jpg"></img>
+                    <img src="Barman is serving ice cream stock photo.jpg"></img>
+                    <img src="IMG_3293.jpg"></img>
 
                 </div>  
             </div>

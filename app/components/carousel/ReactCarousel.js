@@ -8,7 +8,8 @@ import './ReactCarousel.css'
 export default class NextJsCarousel extends Component { 
     render() { 
         return ( 
-            <div>
+            <>
+            <div className='Horizontal'>
               <Carousel 
                 animationHandler="fade"
                 showThumbs={false}
@@ -34,6 +35,35 @@ export default class NextJsCarousel extends Component {
                   </div> 
               </Carousel> 
             </div>
+            <div className='Vertical'>
+                <Carousel 
+                    animationHandler="fade"
+                    showThumbs={false}
+                    showStatus={false}
+                    showArrows={false}
+                    showIndicators={false}
+                    infiniteLoop={true}
+                    autoPlay={true}
+                    stopOnHover={true}
+                    swipeable={false}
+                    interval={2000}
+                    transitionTime={1000}
+                    swipeScrollTolerance={5}
+                > 
+    
+                    <div> 
+                        <img src="/Carousel_1_Vertical.jpg" alt="image1"/>  
+                    </div> 
+                    <div> 
+                        <img src="/Carousel_2_Vertical.jpg" alt="image2" />   
+                    </div> 
+                    <div> 
+                        <img src="/Carousel_3_Vertical.jpg" alt="image3"/>  
+                    </div> 
+    
+                </Carousel> 
+                </div>
+            </>
         ); 
     } 
 };

@@ -6,7 +6,7 @@ export default function FaqDetails(){
   return(
     <div className="container-faq">
     <section className="text-gray-700">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20 Menu-Faq">
           <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4 faq-title">
             Frequently Asked Question

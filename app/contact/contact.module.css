@@ -91,7 +91,7 @@
     background-color: #9b171e;
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 992px) {
     .container{
         padding: 5%;
         background-color: var(--white);

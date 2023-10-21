@@ -20,10 +20,10 @@ export default function AuthenticGelato(){
                 </p>
             </div>
             <div className={`${styles.img} ${styles.img1}`}>
-                <img src="BolognaDiNotte.jpg"></img>
+                <img src="Serving.jpg"></img>
             </div>
             <div className={`${styles.img} ${styles.img2}`}>
-            <img src="pozzetto.jpg"></img>
+            <img src="Young couple together stock photo.jpg"></img>
             </div>
             <div className={`${styles.text} ${styles.text2}`}>
                 <p>At Elisa Gelato, we use the traditional way of preparing, storing and serving high quality gelato. 

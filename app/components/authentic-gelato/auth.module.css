@@ -35,7 +35,7 @@
     text-transform: uppercase;
     text-align: left;
     padding: 20px!important;
-    font-size: calc(100vw/90);
+    font-size: calc(100vw/100);
 }
 .img{
     flex: 50%;
@@ -66,6 +66,7 @@
         flex: 100%;
         text-align: left;
         font-size: .8rem;
+        line-height: 1.8rem;
     }
     .img{
         flex: 100%;
@@ -75,5 +76,7 @@
     .text1{order: 1;}
     .img1{order: 2;}
     .text2{order: 3;}
-    .img2{order: 4;}    
+    .img2{order: 4;
+    margin-bottom: 20px;
+    }    
 }

@@ -9,8 +9,9 @@ export default function Footer(){
         <div className={styles.container}>
             <div className={styles.wrap}>
             <div className={styles.column}>
-                <div>Elisa Gelato pty</div>
-                <div>18/20 Bellevue Rd, Bellevue Hill NSW 2023</div> 
+                <div>Elisa Gelato Pty Ltd</div>
+                <div>32-34 Perouse Road, Randwick NSW 2031</div> 
+                <div>Phone: 0400 000 000</div> 
             </div>
                 <div className={styles.column}>
                     <div> 
@@ -33,12 +34,11 @@ export default function Footer(){
                     </div> 
                 </div>
                 <div className={styles.column}>
-                    <div className={styles.follow}>Follow us</div> 
-                    <div className={styles.iconContainer}>
-                        <div className={styles.iconLeft}><img className={styles.icon} src='/icons8-facebook-50_W.png'></img></div>                    
-                        <div className={styles.iconRight}></div><img className={styles.icon} src='/icons8-instagram-50_W.png'></img></div>
-                    </div>
+                    <div>Opening hours:</div>
+                    <div>Mon-Wed: 3pm-9pm</div>
+                    <div>Thur-Sun: 1pm-10pm</div>
                 </div>
             </div>
+        </div>
     )
 }
