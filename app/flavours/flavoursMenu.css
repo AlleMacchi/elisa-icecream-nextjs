@@ -8,7 +8,7 @@
     margin-bottom: 0px!important;
     min-height: 100vh;
 
-    background-image: url("/BackgroundCoffeShop.jpg");
+    background-image: url("/Blackboard.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,14 +18,14 @@
     grid-column: 1 / 4;  
     text-align: center;
     text-transform: uppercase;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
     width: 100%;
     /* border-bottom: 1px solid var(--grey-light); */
 }
 .flavoursMenu-title>h1{
     font-weight: 700;
     font-size: calc(100vh/25);
-    color: var(--red);
+    color: var(--white);
 }
 .flavoursMenu-item{
     background-color: transparent;
@@ -47,13 +47,17 @@
 }
 
 @media (max-width: 992px) {
+
+    .flavours-box{   
+        background-image: url("/BlackboardMobile.jpg");
+    }
+
     .flavoursMenu-item {
         grid-column: 1 / 4; 
         padding: 0 10%!important;
     }
     .flavoursMenu-title>h1{
         font-size: calc(100vh/25);
-        color: var(--red);
         font-weight: 700;
     }
   }

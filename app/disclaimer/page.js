@@ -1,16 +1,12 @@
 import Footer from '../components/footer/footer'
 import styles from '../page.module.css'
-import FaqDetails from './faq'
+import Diclaimer from './diclaimer'
 
-
-
-export default function Faq() {
+export default function Home() {
   return (
     <main className={styles.main}>
-      <FaqDetails />
-      <div className='faqFooter'>
+      <Diclaimer />
       <Footer />
-    </div>
     </main>
   )
 }

@@ -1,26 +1,26 @@
 import React from 'react'
 import './faq.css'
-import Footer from '../components/footer/footer'
+
 
 export default function FaqDetails(){
   return(
     <div className="container-faq">
     <section className="text-gray-700">
-      <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20 Menu-Faq">
-          <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4 faq-title">
-            Frequently Asked Question
+      <div className="container px-5 py-1 mx-auto">
+        <div className="text-center mb-15 Menu-Faq">
+          <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4 mt-4 faq-title">
+            Frequently Asked Questions
           </h1>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           <div className="w-full lg:w-1/2 px-4 py-2">
             <details className="mb-4">
               <summary className="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                  Why is Elisa’s gelato so creamy and flavoursome?
+                  Why is Elisa gelato so creamy and flavoursome?
               </summary>
 
               <span>
-                  Elisa’s gelato is made fresh in our laboratorio, in small batches of no more than 4/5 kg 
+                  Elisa gelato is made fresh in our laboratorio, in small batches of no more than 4/5 kg 
                   of gelato at a time, several times a day depending on products sold. The art of making gelato 
                   includes knowing when the right consistency is reached, not too cold and hard, not too warm and soft.  
                   Once the right consistency is reached, the gelato is stored in the “pozzetti” counter which is the best 
@@ -93,10 +93,9 @@ export default function FaqDetails(){
         </div>
       </div>
     </section>  
-    <div>
-    <Footer />
-    </div>
+
   </div>
+   
   
   )
 }

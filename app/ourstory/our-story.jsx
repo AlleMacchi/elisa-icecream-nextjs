@@ -11,16 +11,13 @@ export default function OurStory(){
             </div>
         
             <div className={`${styles.text} ${styles.text1}`}>
-                <p>Indulge in the sweet taste of love with Elisa's authentic gelato,
-                         crafted from a love story that spans across continents. 
-                         Experience the same joy that Christelle and Federico, 
-                         the founders of Elisa Gelato, found in their favourite 
-                         gelateria in Bologna, now brought to Australia just for you. 
-                         Let Elisa Gelato be your happy place, where you can savour every 
-                         mouthwatering scoop and create your own unforgettable moments. 
-                         Taste the love, taste the tradition, and treat yourself to 
-                         the true taste of Bologna right here in Sydney.
-                </p>
+                <p>Indulge in the sweet taste of love with Elisa's authentic gelato, crafted from a love story that spans across continents. </p>
+                <br></br>
+                <p>Experience the same joy that Christelle and Federico, the founders of Elisa Gelato, found in their favourite gelateria in Bologna, now brought to Australia just for you. </p>
+                <br></br>
+                <p>Let Elisa Gelato be your happy place, where you can savour every mouthwatering scoop and create your own unforgettable moments. </p>
+                <br></br>
+                <p>Taste the love, taste the tradition, and treat yourself to the true taste of Bologna right here in Sydney.</p> 
             </div>
 
             <div className={styles.img}>

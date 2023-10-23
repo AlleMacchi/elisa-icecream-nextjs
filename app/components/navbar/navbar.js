@@ -23,25 +23,25 @@ export default function Navbar(){
             <div className={styles.hamburgerlines}>
                 <span className={`${styles.line} ${styles.line1}`}></span>
                 <span className={`${styles.line} ${styles.line2}`}></span>
+
                 <span className={`${styles.line} ${styles.line3}`}></span>
             </div>
             <ul className={styles.menuitems}>
                 <li><a href="/">Authentic Gelato</a></li>
                 <li><a href="/ourstory">Our Story</a></li>
                 <li><a href="/flavours">Traditional Flavours</a></li>
-                <li><a href="/faq">FAQs</a></li>
-                <li><a href="/contact">Contacts</a></li>               
+                <li><a href="/faq">FAQ<span>s</span></a></li>
+                <li><a href="/contact">Find us</a></li>               
                 <div className={styles.wrap}>
-                <div className={styles.tradeTime} >
-                <div className={`${styles.follow} ${styles.OpeningTitle}`}>Opening hours:</div>
-                <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Wed: 3pm-9pm</div>
-                <div className={`${styles.follow} ${styles.OpeningTime}`}>Thur-Sun: 1pm-10pm</div>
-                </div>
-                <div className={styles.follow}>Follow us </div>
                     <div className={styles.iconContainer}>
                         <div className={styles.iconLeft}><FaFacebook className={styles.icon} /></div> 
                         <div className={styles.iconLeft}><FaInstagram className={styles.icon}/></div> 
-                    </div>            
+                    </div>  
+                    <div className={styles.tradeTime} >
+                        <div className={`${styles.follow} ${styles.OpeningTitle}`}>Opening hours:</div>
+                        <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Wed: 3pm-9pm</div>
+                        <div className={`${styles.follow} ${styles.OpeningTime}`}>Thur-Sun: 1pm-10pm</div>
+                    </div>
                 </div>
             </ul>
             <div className={styles.logo}>  

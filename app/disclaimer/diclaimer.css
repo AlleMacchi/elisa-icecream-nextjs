@@ -1,0 +1,16 @@
+.Diclaimer-container{
+    height: 100vh;
+}
+.Diclaimer-title{
+    text-align: center;
+    font-size: 1rem;
+    text-transform:uppercase ;
+    padding-top: 2%;
+}
+
+.Diclaimer-p{
+    color: var(--black);
+    padding: 0 8%;
+    padding-top: 2%;
+    font-size: .8rem;
+}
