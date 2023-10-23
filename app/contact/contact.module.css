@@ -103,7 +103,7 @@
     .container{
         padding: 5%;
         background-color: var(--white);
-        min-height: 80vh;
+        min-height: 100vh;
     }
     .left {
         flex: 100%;
