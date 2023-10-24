@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <OurStory />
-      <Footer />
+      <div className={styles.Footer}>
+        <Footer />
+      </div>
     </main>
   )
 }

@@ -7,9 +7,9 @@
     font-family: var(--mono-font);
     min-height: var(--height-footer);
 
-    position: -webkit-sticky;
+    /* position: -webkit-sticky;
     position: sticky;
-    bottom: 0;
+    bottom: 0; */
 }
 
 .wrap{

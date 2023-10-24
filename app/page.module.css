@@ -9,9 +9,18 @@
   z-index: -99;
   /* min-height: 100vh; */
 }
+.Footer{
 
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 75%;
+}
 @media (max-width: 992px) {
   .main{
+    width: 100%;
+  }
+  .Footer{
     width: 100%;
   }
 }

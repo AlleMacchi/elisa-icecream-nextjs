@@ -9,7 +9,9 @@ export default function Contact() {
     <main className={styles.main}>
       {/* <ContactDetails /> */}
       <ContactDetails2 />
-      <Footer />
+      <div className='ContactFooter'>
+        <Footer />
+      </div>
     </main>
     )
   }
