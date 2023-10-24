@@ -34,7 +34,7 @@ export default function Footer(){
                             <li><a href="/flavours">Traditional Flavours</a></li>
                             <li><a href="/faq">FAQ<span>s</span></a></li>
                             <li><a href="/contact">Find us</a></li>  
-                            <li><a href="/disclaimer">Disclaimer</a></li>  
+                            <li><a href="/disclaimer">Website use</a></li>  
                         </ul>
                     </div> 
                 </div>
