@@ -35,15 +35,20 @@ export default function OurStory(){
         </div>
 
         {/* Mobile Version    */}
-        <div className={styles.mobile_container}>
-            <div className={styles.mobile_item}><img src="IMG_5995_Square.jpg"></img></div>
-            <div className={styles.mobile_item}><p>Indulge in the sweet taste of love with Elisa's authentic gelato, crafted from a love story that spans across continents. </p></div>
-            <div className={styles.mobile_item}><p>Experience the same joy that Christelle and Federico, the founders of Elisa Gelato, found in their favourite gelateria in Bologna, now brought to Australia just for you. </p></div>
-            <div className={styles.mobile_item}><img src="Caramel ice cream and waffle cones stock photo_Square.jpg"></img></div>
-            <div className={styles.mobile_item}><img src="Barman is serving ice cream stock photo_Square.jpg"></img></div>
-            <div className={styles.mobile_item}><p>Let Elisa Gelato be your happy place, where you can savour every mouthwatering scoop and create your own unforgettable moments. </p></div>
-            <div className={styles.mobile_item}><p>Taste the love, taste the tradition, and treat yourself to the true taste of Bologna right here in Sydney.</p></div>
-            <div className={styles.mobile_item}><img src="IMG_3293_Square.jpg"></img></div>
+        <div className={styles.mobile}>
+            <div className={styles.title}>
+                <h1>A love story with gelato</h1>
+            </div>
+            <div className={styles.mobile_container}>
+                <div className={styles.mobile_item}><img src="IMG_5995_Square.jpg"></img></div>
+                <div className={styles.mobile_item}><p>Indulge in the sweet taste of love with Elisa's authentic gelato, crafted from a love story that spans across continents. </p></div>
+                <div className={styles.mobile_item}><p>Experience the same joy that Christelle and Federico, the founders of Elisa Gelato, found in their favourite gelateria in Bologna, now brought to Australia just for you. </p></div>
+                <div className={styles.mobile_item}><img src="Caramel ice cream and waffle cones stock photo_Square.jpg"></img></div>
+                <div className={styles.mobile_item}><img src="Barman is serving ice cream stock photo_Square.jpg"></img></div>
+                <div className={styles.mobile_item}><p>Let Elisa Gelato be your happy place, where you can savour every mouthwatering scoop and create your own unforgettable moments. </p></div>
+                <div className={styles.mobile_item}><p>Taste the love, taste the tradition, and treat yourself to the true taste of Bologna right here in Sydney.</p></div>
+                <div className={styles.mobile_item}><img src="IMG_3293_Square.jpg"></img></div>
+            </div>
         </div>
     </div>
     )
