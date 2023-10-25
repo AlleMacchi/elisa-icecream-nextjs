@@ -1,4 +1,4 @@
-import ContactDetails from "./contact";
+import ContactDetails from './contact';
 
 
 
