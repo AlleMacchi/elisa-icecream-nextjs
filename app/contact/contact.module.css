@@ -1,7 +1,6 @@
 .container{
     padding: 0 5%;
     background-color: var(--white);
-    min-height: 100vh;
 }
 
 .box{
@@ -103,7 +102,6 @@
     .container{
         padding: 5%;
         background-color: var(--white);
-        min-height: 100vh;
     }
     .left {
         flex: 100%;

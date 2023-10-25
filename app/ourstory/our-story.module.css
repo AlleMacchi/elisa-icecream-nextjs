@@ -96,23 +96,10 @@
   }
 
 @media (max-width: 992px) {
-/*     .container{
-        margin-bottom: 100px;
-    }
-    .title{
-        font-size: calc(100vh/25);
-        color: var(--red);
-        font-weight: 700;
-        text-align: center;
-    }
-    .text{
-        flex: 100%;
-        text-align: left;
-        font-size: .8rem;
-    }
-    .img{
-        flex: 100%;
-    }  */
+    .mobile_item>p{
+        font-size: calc(100vw/30);
+        padding: 10px;
+      }
 
     .title{
         font-size: calc(100vh/25);
