@@ -1,4 +1,5 @@
-import ContactDetails from './contact';
+import ContactDetails from "./contact";
+
 
 
 export default function Contact() {
