@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './contact.module.css'
 
-function ContactDetails2(){
+function ContactDetails(){
     return(
         <div className={styles.container}>
             <div className={styles.box}>
@@ -31,4 +31,4 @@ function ContactDetails2(){
     )
 }
 
-export default ContactDetails2;
+export default ContactDetails;
