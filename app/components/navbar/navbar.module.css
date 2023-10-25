@@ -200,7 +200,7 @@
 .navbarcontainer .hamburgerlines {
   display: block;
   height: 20px;
-  width: 35px;
+  width: 30px;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -272,7 +272,7 @@
   }
 
   .navbarcontainer input[type="checkbox"]:checked ~ .hamburgerlines .line1 {
-    transform: rotate(35deg);
+    transform: rotate(39deg);
   }
 
   .navbarcontainer input[type="checkbox"]:checked ~ .hamburgerlines .line2 {
@@ -280,6 +280,6 @@
   }
 
   .navbarcontainer input[type="checkbox"]:checked ~ .hamburgerlines .line3 {
-    transform: rotate(-35deg);
+    transform: rotate(-39deg);
   }
 }
