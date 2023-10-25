@@ -6,7 +6,6 @@
     -webkit-justify-content:center;
     justify-content:center;
     padding-bottom: 5% ;
-    margin-bottom: 50px;
 }
 .wrap{
     width: 95%;
@@ -35,7 +34,7 @@
 .text{
     flex: 50%;
     color: var(--black);
-    text-transform: uppercase;
+    text-transform: none;
     text-align: left;
     padding: 20px!important;
     font-size: calc(100vw/90);
@@ -82,7 +81,7 @@
   }
   .mobile_item>p{
     color: var(--black);
-    text-transform: uppercase;
+    text-transform: none;
     text-align: left;
     font-size: calc(100vw/40);
     padding: 20px;

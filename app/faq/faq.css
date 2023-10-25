@@ -1,11 +1,6 @@
 .container-faq{
     background-color: var(--white);
-    height: 100vh;
 }
-.container{
-    height: 100vh;
-}
-
 .faq-title{
     font-weight: 700;
     font-size: calc(100vh/25);
@@ -15,19 +10,11 @@
 .Menu-Faq{
     border-bottom: 1px solid var(--grey-light);
 }
-.faqFooter{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 75%;
-}
 @media screen and (max-width: 992px) {
     .faq-title{
         font-size: calc(100vh/25);
         color: var(--red);
         font-weight: 700;
     }
-    .faqFooter{
-        width: 100%;
-    }
+
   }

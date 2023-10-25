@@ -1,15 +1,7 @@
 .container{
-    height: var(--height-footer);
-    min-height: var(--height-footer);
     background-color: var(--red);
-    width: 100%;
     color: white;
     font-family: var(--mono-font);
-    min-height: var(--height-footer);
-
-    /* position: -webkit-sticky;
-    position: sticky;
-    bottom: 0; */
 }
 
 .wrap{
@@ -17,7 +9,6 @@
     flex-direction: row;
     font-size: .6rem;
     text-align: left;
-    height:70px;
 }
 
 .column{
@@ -25,7 +16,6 @@
     flex: 25%;
     height:100%;
     padding:5px;
-    /* font-size: 1rem; */
     display: flex;
     justify-content: center;
 }
@@ -73,10 +63,6 @@
 @media (max-width: 767px) {
     .wrap{
         flex-direction: row;
-        height: var(--height-footer)/3.3;
-    }
-    .container{
-        height: 100%;
     }
     .column{
         padding: 3%;

@@ -1,20 +1,16 @@
 .container{
-    height: var(--height-header);
     background-color: var(--red);
-    width: 75%;
     color: white;
     font-family: var(--mono-font);
     text-align: center;
-    position: fixed;
-    right: 0;
 }
 .title>img{
     height: var(--height-header);
 }
 .title>p{
     padding-top: calc(var(--height-header)/4)!important;
-    padding-left: 5%!important;
-    padding-right: 5%!important;
+    padding-left: 5%;
+    padding-right: 5%;
     letter-spacing: 5px;
 }
 .title{

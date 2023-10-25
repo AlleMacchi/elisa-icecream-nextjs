@@ -32,7 +32,7 @@
 .text{
     flex: 50%;
     color: var(--black);
-    text-transform: uppercase;
+    text-transform: none;
     text-align: left;
     padding: 20px!important;
     font-size: calc(100vw/100);

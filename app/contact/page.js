@@ -1,17 +1,10 @@
-import Footer from '../components/footer/footer'
-import styles from '../page.module.css'
-import ContactDetails from "./Contact";
-import ContactDetails2 from './contactCol';
+import ContactDetails from './contact';
 
 
 export default function Contact() {
     return (
-    <main className={styles.main}>
-      {/* <ContactDetails /> */}
-      <ContactDetails2 />
-      <div className='ContactFooter'>
-        <Footer />
-      </div>
-    </main>
+    <div>
+      <ContactDetails />
+    </div>
     )
   }

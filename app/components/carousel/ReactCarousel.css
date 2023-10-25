@@ -17,12 +17,13 @@
     margin-bottom: 2.5%!important;
     
 }
-
 .Horizontal{
     display: block;
+    
 }
 .Vertical{
     display: none;
+
 }
 
 @media (max-width: 992px) {

@@ -8,7 +8,7 @@ import './ReactCarousel.css'
 export default class NextJsCarousel extends Component { 
     render() { 
         return ( 
-            <>
+            <div className='Carousel-container'>
             <div className='Horizontal'>
               <Carousel 
                 animationHandler="fade"
@@ -63,7 +63,7 @@ export default class NextJsCarousel extends Component {
     
                 </Carousel> 
                 </div>
-            </>
+            </div>
         ); 
     } 
 };

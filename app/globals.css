@@ -36,4 +36,40 @@ body {
   background-color: var(--white);
 }
 
+header {
+  height: var(--height-header);
+  width: 75%;
+  float: right;
+}
 
+nav {
+  width: 25%;
+  height: calc(100vh - var(--height-header));
+  float: left;
+}
+
+main{
+  width: 75%;
+  height: calc(100vh - var(--height-header));
+  float: left;
+  overflow: hidden;
+  overflow-y: scroll;
+ }
+footer{
+  height: var(--height-footer);
+  width: 100%;
+}
+#content-page{
+  width: 100%;
+  min-height: calc(100% - var(--height-footer));
+}
+
+@media (max-width: 992px) {
+  main{
+    width: 100%;
+  }
+  nav {
+    height: 100%;
+  }
+
+}
