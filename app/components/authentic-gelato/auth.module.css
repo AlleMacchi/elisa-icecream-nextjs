@@ -65,7 +65,7 @@
     .text{
         flex: 100%;
         text-align: left;
-        font-size: .8rem;
+        font-size: 1.1rem;
         line-height: 1.8rem;
     }
     .img{

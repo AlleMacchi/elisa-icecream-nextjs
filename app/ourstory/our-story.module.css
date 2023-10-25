@@ -66,7 +66,7 @@
     grid-template-columns: auto auto;
     gap: 10px;
     padding: 10px;
-    padding-left: 30px;
+    padding-left: 20px;
     width: 100%;
     margin-bottom: 50px;
 }
@@ -78,6 +78,9 @@
     height: calc((100vw / 2) - 30px);
     justify-content: center;
     align-items: center;
+  }
+  .mobile_item_text{
+    grid-column: 1 / span 2;
   }
   .mobile_item>p{
     color: var(--black);
