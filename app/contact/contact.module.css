@@ -1,6 +1,7 @@
 .container{
     padding: 0 5%;
     background-color: var(--white);
+    min-height: 100vh;
 }
 
 .box{
@@ -21,6 +22,10 @@
 .left {
     flex: 50%;
     height: 50vh;
+/*     background-image: url("/Contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
 
 }
 
@@ -55,11 +60,50 @@
     background-color: var(--red);
   }
 
+  .field{
+    width: 90%;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230,230,230, 0.6);
+    margin-bottom: 5px;
+    transition: .3s;
+    font-family: var(--mono-font);
+    font-size: calc(100vw/120);
+  }
+
+  .field:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+  }
   
+  .field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+  }
+
+  .area{
+    min-height: 100px;
+  }
+
+  .btn{
+    width: 90%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: var(--red);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  
+  .btn:hover{
+    background-color: #9b171e;
+  }
+
   @media (max-width: 992px) {
     .container{
         padding: 5%;
         background-color: var(--white);
+        min-height: 100vh;
     }
     .left {
         flex: 100%;
@@ -68,5 +112,9 @@
 
     .right{
         flex: 100%;
+    }
+
+    .field{
+      font-size: calc(100vw/35);
     }
   }
