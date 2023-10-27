@@ -19,12 +19,17 @@ export default function Footer(){
                 </div>
                 <div className={styles.column}>
                     <div>
-                        <ul>
+                        <p>
+                        We acknowledge the Traditional Owners of Country throughout Australia. 
+                        We pay our respects to Elders past and present, and to all Aboriginal 
+                        and Torres Strait Islander peoples
+                        </p>
+{/*                         <ul>
                             <li>Opening hours:</li>
                             <br></br>
                             <li>Mon-Wed: 3pm-9pm</li>
                             <li>Thur-Sun: 1pm-10pm</li>
-                        </ul>
+                        </ul> */}
                     </div>
                 </div>
                 <div className={styles.column}>
