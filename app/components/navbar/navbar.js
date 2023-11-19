@@ -34,7 +34,7 @@ export default function Navbar(){
                 <li><a href="/contact">Find us</a></li>               
                 <div className={styles.wrap}>
                     <div className={styles.iconContainer}>
-                        <div className={styles.iconLeft}><a><FaFacebook className={styles.icon} /></a></div> 
+                        <div className={styles.iconLeft}><a href='https://www.facebook.com/profile.php?id=100093169569973&mibextid=LQQJ4d'><FaFacebook className={styles.icon} /></a></div> 
                         <div className={styles.iconLeft}><a href="https://www.instagram.com/elisagelatoaus/"><FaInstagram className={styles.icon}/></a></div> 
                     </div>  
                     <div className={styles.tradeTime} >
