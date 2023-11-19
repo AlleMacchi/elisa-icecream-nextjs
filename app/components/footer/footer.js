@@ -44,8 +44,8 @@ export default function Footer(){
                     </div> 
                 </div>
                 <div className={`${styles.column} ${styles.iconContainer}`}>
-                    <div className={styles.icon}><FaFacebook className={styles.icon} /></div> 
-                    <div className={styles.icon}><FaInstagram className={styles.icon}/></div> 
+                    <div className={styles.icon}><a><FaFacebook className={styles.icon} /></a></div> 
+                    <div className={styles.icon}><a href='https://www.instagram.com/elisagelatoaus/'><FaInstagram className={styles.icon}/></a></div> 
                 </div>
             </div>
         </div>
