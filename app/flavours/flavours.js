@@ -1,7 +1,17 @@
-import "./flavoursMenu.css"
+import "./flavoursMenu.css";
+import Head from "next/head";
 
 export default function FlavoursMenu(){
-    return(              
+    return(      
+        <>        
+            <Head>
+                <title>Flavours</title>
+                <meta
+                    name="description"
+                    content="Traditional icecream Flavours"
+                />
+                <link rel="alternate" hreflang="en-au" href="https://www.elisagelato.com.au/flavours" />
+            </Head>
             <div className=" flavours-box">     
                 <div className='flavoursMenu-title'><h1>Traditional Flavours</h1></div>         
                     {/* Gelati */}       
@@ -66,6 +76,6 @@ export default function FlavoursMenu(){
                     </div>
 
                 </div>
-
+        </>
     )
 }

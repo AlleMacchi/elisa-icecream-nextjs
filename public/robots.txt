@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://elisagelato.com.au/sitemap.xml
+Sitemap: https://elisagelato.com.au/sitemap_index.xml
