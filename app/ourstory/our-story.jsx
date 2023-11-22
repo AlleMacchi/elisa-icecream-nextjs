@@ -1,18 +1,15 @@
 import React from "react";
 import styles from './our-story.module.css'
-import Head from "next/head";
+import Head from "../components/head/head";
 
 export default function OurStory(){
     return(
         <>
-            <Head>
-                <title>A love story with gelato</title>
-                <meta
-                    name="description"
-                    content="Indulge in the sweet taste of love with Elisa's authentic gelato, crafted from a love story that spans across continents."
-                />
-                <link rel="alternate" hreflang="en-au" href="https://www.elisagelato.com.au/ourstory" />
-            </Head>
+            <Head
+                title="A love story with gelato"
+                content="Indulge in the sweet taste of love with Elisa's authentic gelato, crafted from a love story that spans across continents."
+                href="https://www.elisagelato.com.au/ourstory" 
+            />
             <div className={styles.container}>
 
                 {/* Laptop Version    */}

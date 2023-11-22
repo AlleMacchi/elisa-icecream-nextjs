@@ -1,19 +1,16 @@
 import React from "react";
 import "./Contact.css";
 import styles from './contact.module.css'
-import Head from "next/head";
+import Head from "../components/head/head";
 
 function ContactDetails2(){
     return(
         <>
-        <Head>
-            <title>Find Us</title>
-            <meta
-                name="description"
-                content="Where is Elisa Gelato in Sydney"
-            />
-            <link rel="alternate" hreflang="en-au" href="https://www.elisagelato.com.au/contact" />
-        </Head>
+        <Head
+            title='Find Us'
+            content="Where is Elisa Gelato in Sydney"
+            href="https://www.elisagelato.com.au/contact"
+        />
         <div className={styles.container}>
             <div className={styles.box}>
                 <div className={styles.left}>

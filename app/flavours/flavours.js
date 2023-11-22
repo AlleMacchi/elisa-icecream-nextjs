@@ -1,17 +1,14 @@
 import "./flavoursMenu.css";
-import Head from "next/head";
+import Head from "../components/head/head";
 
 export default function FlavoursMenu(){
     return(      
         <>        
-            <Head>
-                <title>Flavours</title>
-                <meta
-                    name="description"
-                    content="Traditional icecream Flavours"
-                />
-                <link rel="alternate" hreflang="en-au" href="https://www.elisagelato.com.au/flavours" />
-            </Head>
+            <Head
+                title="Flavours"
+                content="Traditional icecream Flavours"
+                href="https://www.elisagelato.com.au/flavours"
+            />
             <div className=" flavours-box">     
                 <div className='flavoursMenu-title'><h1>Traditional Flavours</h1></div>         
                     {/* Gelati */}       

@@ -1,18 +1,15 @@
 import React from 'react'
 import './faq.css'
-import Head from "next/head";
+import Head from "../components/head/head";
 
 export default function FaqDetails(){
   return(
     <>
-      <Head>
-        <title>Frequently Asked Questions</title>
-        <meta
-            name="description"
-            content="Frequently Asked Questions of Elisa Gelato"
-        />
-        <link rel="alternate" hreflang="en-au" href="https://www.elisagelato.com.au/faq" />
-      </Head>
+      <Head
+          title="Frequently Asked Questions"
+          content="Frequently Asked Questions of Elisa Gelato"
+          href="https://www.elisagelato.com.au/faq"
+      />
       <div className="container-faq">
       <section className="text-gray-700">
         <div className="container px-5 py-1 mx-auto">

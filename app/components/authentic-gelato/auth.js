@@ -1,17 +1,14 @@
 import styles from './auth.module.css'
-import Head from "next/head";
+import Head from "../../components/head/head";
 
 export default function AuthenticGelato(){
     return(
         <>
-            <Head>
-                <title>Authentic gelato</title>
-                <meta
-                    name="description"
-                    content="Elisa Gelato, experience the true taste of Bologna without leaving Sydney"
-                />
-                <link rel="alternate" hreflang="en-au" href="https://www.elisagelato.com.au/" />
-            </Head>
+            <Head
+                title='Authentic gelato'
+                content="Elisa Gelato, experience the true taste of Bologna without leaving Sydney"
+                href="https://www.elisagelato.com.au/" 
+            />
        
             <div className={styles.container}>
                 <div className={styles.wrap}>
