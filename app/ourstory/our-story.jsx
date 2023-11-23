@@ -44,7 +44,7 @@ export default function OurStory(){
                 {/* Mobile Version    */}
                 <div className={styles.mobile}>
                     <div className={styles.title}>
-                        <h1>A love story with gelato</h1>
+                        <h2>A love story with gelato</h2>
                     </div>
                     <div className={styles.mobile_container}>
                         <div className={styles.mobile_item}><img src="IMG_5995_Square.jpg"></img></div>
