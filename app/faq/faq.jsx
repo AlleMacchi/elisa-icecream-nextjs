@@ -8,7 +8,7 @@ export default function FaqDetails(){
       <Head
           title="Frequently Asked Questions"
           content="Frequently Asked Questions of Elisa Gelato"
-          href="https://www.elisagelato.com.au/faq"
+          href="https://elisagelato.com.au/faq"
       />
       <div className="container-faq">
       <section className="text-gray-700">

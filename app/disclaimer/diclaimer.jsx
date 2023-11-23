@@ -1,9 +1,16 @@
 import React from "react";
 import './diclaimer.css';
+import Head from "../../app/components/head/head";
 
 export default function Diclaimer(){
     return(
+        
         <div className="Diclaimer-container">
+            <Head
+                title='Diclaimer'
+                content="This website is operated by Elisa Gelato Pty Ltd"
+                href="https://elisagelato.com.au/" 
+            />
         <h1 className="Diclaimer-title">Website use</h1>
         <p className="Diclaimer-p">This website is operated by Elisa Gelato Pty Ltd (Elisa Gelato). 
         By accessing our site, you agree to be bound by the following terms and conditions. 

@@ -9,7 +9,7 @@ function ContactDetails2(){
         <Head
             title='Find Us'
             content="Where is Elisa Gelato in Sydney"
-            href="https://www.elisagelato.com.au/contact"
+            href="https://elisagelato.com.au/contact"
         />
         <div className={styles.container}>
             <div className={styles.box}>

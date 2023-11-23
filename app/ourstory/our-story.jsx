@@ -8,7 +8,7 @@ export default function OurStory(){
             <Head
                 title="A love story with gelato"
                 content="Indulge in the sweet taste of love with Elisa's authentic gelato, crafted from a love story that spans across continents."
-                href="https://www.elisagelato.com.au/ourstory" 
+                href="https://elisagelato.com.au/ourstory" 
             />
             <div className={styles.container}>
 

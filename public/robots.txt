@@ -1,10 +1,5 @@
-# *
 User-agent: *
-Allow: /
-
-# Host
-Host: https://www.elisagelato.com.au
-
-# Sitemaps
-Sitemap: https://www.elisagelato.com.au/sitemap.xml
-Sitemap: htpps://www.elisagelato.com.au/server-sitemap-index.xml
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://elisagelato.com.au/sitemap.xml
+Sitemap: https://elisagelato.com.au/sitemap_index.xml

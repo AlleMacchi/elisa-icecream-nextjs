@@ -1,5 +1,6 @@
 import styles from './auth.module.css'
 import Head from "../../components/head/head";
+import GoogleTag from '../GooglTag/GoogleTag';
 
 export default function AuthenticGelato(){
     return(
@@ -7,9 +8,10 @@ export default function AuthenticGelato(){
             <Head
                 title='Authentic gelato'
                 content="Elisa Gelato, experience the true taste of Bologna without leaving Sydney"
-                href="https://www.elisagelato.com.au/" 
+                href="https://elisagelato.com.au/" 
             />
-       
+           
+
             <div className={styles.container}>
                 <div className={styles.wrap}>
                 <div className={styles.title}>

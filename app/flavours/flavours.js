@@ -7,7 +7,7 @@ export default function FlavoursMenu(){
             <Head
                 title="Flavours"
                 content="Traditional icecream Flavours"
-                href="https://www.elisagelato.com.au/flavours"
+                href="https://elisagelato.com.au/flavours"
             />
             <div className=" flavours-box">     
                 <div className='flavoursMenu-title'><h1>Traditional Flavours</h1></div>         
