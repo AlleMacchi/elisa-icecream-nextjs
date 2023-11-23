@@ -9,7 +9,7 @@ export default function Diclaimer(){
             <Head
                 title='Diclaimer'
                 content="This website is operated by Elisa Gelato Pty Ltd"
-                href="https://elisagelato.com.au/" 
+                href="https://elisagelato.com.au/disclaimer" 
             />
         <h1 className="Diclaimer-title">Website use</h1>
         <p className="Diclaimer-p">This website is operated by Elisa Gelato Pty Ltd (Elisa Gelato). 

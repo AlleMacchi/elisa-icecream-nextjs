@@ -24,7 +24,7 @@ function ContactDetails2(){
                 </iframe>
                 </div>
                 <div className={styles.right}>
-                    <h2>Elisa Gelato Pty Ltd</h2>
+                    <h1>Elisa Gelato Pty Ltd</h1>
                     <div>32-34 Perouse Road, Randwick NSW 2031</div> 
                     <div>Phone: 0430 568 805</div> 
                     <br></br>
