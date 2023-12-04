@@ -30,8 +30,8 @@ function ContactDetails2(){
                     <br></br>
                     <div>
                         <div> Opening hours:</div>
-                        <div>Mon-Wed: 3pm-9pm</div>
-                        <div>Thur-Sun: 1pm-10pm</div>
+                        {/* <div>Mon-Wed: 3pm-9pm</div> */}
+                        <div>Mon-Sun: 1pm til late</div>
                     </div>
                 </div>
             </div>
