@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import styles from './navbar.module.css'
-import { FaInstagram, FaFacebook} from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaTiktok} from 'react-icons/fa';
 
 
 export default function Navbar(){
@@ -36,6 +36,7 @@ export default function Navbar(){
                     <div className={styles.iconContainer}>
                         <div className={styles.iconLeft}><a href='https://www.facebook.com/profile.php?id=100093169569973&mibextid=LQQJ4d'><FaFacebook className={styles.icon} /></a></div> 
                         <div className={styles.iconLeft}><a href="https://www.instagram.com/elisagelatoaus/"><FaInstagram className={styles.icon}/></a></div> 
+                        <div className={styles.iconLeft}><a href="https://www.tiktok.com/@elisagelatoaus?_t=8hvhZXOsRAv&_r=1">< FaTiktok className={styles.icon}/></a></div> 
                     </div>  
                     <div className={styles.tradeTime} >
                         <div className={`${styles.follow} ${styles.OpeningTitle}`}>Opening hours:</div>

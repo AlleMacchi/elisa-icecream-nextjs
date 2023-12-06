@@ -2,7 +2,7 @@
 
 import styles from './footer.module.css'
 import React from 'react'; 
-import { FaInstagram, FaFacebook} from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaTiktok} from 'react-icons/fa';
 
 export default function Footer(){
     return(
@@ -46,6 +46,7 @@ export default function Footer(){
                 <div className={`${styles.column} ${styles.iconContainer}`}>
                     <div className={styles.icon}><a href='https://www.facebook.com/profile.php?id=100093169569973&mibextid=LQQJ4d'><FaFacebook className={styles.icon} /></a></div> 
                     <div className={styles.icon}><a href='https://www.instagram.com/elisagelatoaus/'><FaInstagram className={styles.icon}/></a></div> 
+                    <div className={styles.iconLeft}><a href="https://www.tiktok.com/@elisagelatoaus?_t=8hvhZXOsRAv&_r=1">< FaTiktok className={styles.icon}/></a></div> 
                 </div>
             </div>
         </div>
