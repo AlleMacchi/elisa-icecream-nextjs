@@ -31,7 +31,10 @@ function ContactDetails2(){
                     <div>
                         <div> Opening hours:</div>
                         {/* <div>Mon-Wed: 3pm-9pm</div> */}
-                        <div>Mon-Sun: 1pm till late</div>
+                        <div>Coffe shop:</div>
+                        <div>Mon-Sun: 7am - 12pm</div>
+                        <div>Ice cream:</div>
+                        <div>Mon-Sun: 12pm - 22pm</div>
                     </div>
                 </div>
             </div>

@@ -41,7 +41,10 @@ export default function Navbar(){
                     <div className={styles.tradeTime} >
                         <div className={`${styles.follow} ${styles.OpeningTitle}`}>Opening hours:</div>
                         {/* <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Wed: 3pm-9pm</div> */}
-                        <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Sun: 1pm till late</div>
+                        <div className={`${styles.follow} ${styles.OpeningTime}`}>Coffe shop:</div>
+                        <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Sun: 7am - 12pm</div>
+                        <div className={`${styles.follow} ${styles.OpeningTime}`}>Ice cream:</div>
+                        <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Sun: 12pm - 22pm</div>
                     </div>
                 </div>
             </ul>
