@@ -6,7 +6,7 @@ export default function Head(props){
         <React.Fragment>
             <title>{props.title}</title>
             <meta content="width=device-width, initial-scale=1" name="viewport"/>
-            <meta name="desription" content={props.content}/>
+            <meta name="description" content={props.content}/>
             <link rel="alternate" hreflang="en-au" href={props.href} />
             <Script src={props.srcScript} />
         </React.Fragment>
