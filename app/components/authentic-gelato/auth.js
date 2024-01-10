@@ -6,7 +6,7 @@ export default function AuthenticGelato() {
   return (
     <>
       <Head
-        title="Elisa Gelato | Authentic Italin Gelato | Italian Gelateria"
+        title="Elisa Gelato | Authentic Italian Gelato | Italian Gelateria"
         content="Indulge in the deliciousness of authentic gelato at Elisa Gelato Randwick. Taste the best italian ice cream creamy flavors that will transport you to Italy. Come to experience an
             Authentic Italian Gelateria!"
         href="https://elisagelato.com.au/"
