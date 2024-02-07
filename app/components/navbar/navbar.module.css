@@ -35,12 +35,12 @@
   justify-content: left;
   align-items: left;
   text-align: left;
+  gap: 10px;
 }
 
 .menuitems li {
   list-style: none;
   font-family: var(--mono-font);
-  padding-bottom: 10px!important;
   text-transform: uppercase;
 }
 
@@ -106,8 +106,9 @@
 }
 .iconContainer{
   display: flex;
-  flex-direction: row;  
-  width: 120px;;
+  flex-direction: row;
+  gap: 5%;
+  width: 120px;
   padding-bottom: 10px;
 }
 .iconLeft{
@@ -236,7 +237,7 @@
     padding-top: 100px!important;
     background: var(--red);
     height: 100vh;
-    max-width: 200px;
+    max-width: 220px;
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
@@ -244,10 +245,12 @@
     padding-left: 50px;
     transition: transform 0.5s ease-in-out;
     box-shadow: 5px 0px 10px 0px var(--grey-light);
+    gap: 0px;
   }
 
   .navbar .menuitems li {
-    margin-bottom: 1.5rem!important;
+    font-weight: 600;
+    margin-bottom: 1rem!important;
     font-size: 1.3rem;
     font-weight: 500;
     margin-left: 20px!important;

@@ -2,6 +2,7 @@
 import React from "react";
 import styles from './navbar.module.css'
 import { FaInstagram, FaFacebook, FaTiktok} from 'react-icons/fa';
+import { SiDoordash,SiUbereats } from "react-icons/si";
 
 
 export default function Navbar(){
@@ -36,15 +37,18 @@ export default function Navbar(){
                     <div className={styles.iconContainer}>
                         <div className={styles.iconLeft}><a href='https://www.facebook.com/profile.php?id=100093169569973&mibextid=LQQJ4d'><FaFacebook className={styles.icon} /></a></div> 
                         <div className={styles.iconLeft}><a href="https://www.instagram.com/elisagelatoaus/"><FaInstagram className={styles.icon}/></a></div> 
-                        <div className={styles.iconLeft}><a href="https://www.tiktok.com/@elisagelatoaus?_t=8hvhZXOsRAv&_r=1">< FaTiktok className={styles.icon}/></a></div> 
+                        <div className={styles.iconLeft}><a href="https://www.tiktok.com/@elisagelatoaus?_t=8hvhZXOsRAv&_r=1"><FaTiktok className={styles.icon}/></a></div>
+                        <div className={styles.iconLeft}><a href="https://www.doordash.com/en-AU/store/elisa-gelato-randwick-27547191/"><SiDoordash className={styles.icon}/></a></div> 
+                        <div className={styles.iconLeft}><a href="https://www.ubereats.com/au/store/elisa-gelato/rixXkAmRRq2-R5K2DwOwdg"><SiUbereats className={styles.icon}/></a></div> 
+                        
                     </div>  
                     <div className={styles.tradeTime} >
                         <div className={`${styles.follow} ${styles.OpeningTitle}`}>Opening hours:</div>
                         {/* <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Wed: 3pm-9pm</div> */}
-                        <div className={`${styles.follow} ${styles.OpeningTime}`}>Coffe shop:</div>
-                        <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Sun: 7am - 12pm</div>
-                        <div className={`${styles.follow} ${styles.OpeningTime}`}>Ice cream:</div>
-                        <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Sun: 12pm - 22pm</div>
+                        <div className={`${styles.follow} ${styles.OpeningTime}`}><strong>Coffe shop:</strong></div>
+                        <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Sun: 7.00 am–12.00 pm</div>
+                        <div className={`${styles.follow} ${styles.OpeningTime}`}><strong>Ice cream:</strong></div>
+                        <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Sun: 12.00 pm–10.00 pm</div>
                     </div>
                 </div>
             </ul>

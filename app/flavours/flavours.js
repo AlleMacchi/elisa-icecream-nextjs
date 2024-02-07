@@ -60,6 +60,19 @@ export default function FlavoursMenu(){
                     <div class="flavoursMenu-item">
                         <img src="./Cocco.png"></img>
                     </div>
+                    <div class="flavoursMenu-item">
+                        <img src="./Nutella.webp"></img>
+                    </div>
+                    <div class="flavoursMenu-item">
+                        <img src="./FruttiDiBosco.webp"></img>
+                    </div>
+                    <div class="flavoursMenu-item">
+                        <img src="./Caffe.webp"></img>
+                    </div>
+                    <div class="flavoursMenu-item">
+                        <img src="./PannaMontata.webp"></img>
+                    </div>
+                    
 
                     {/* Granite */}
                     <div class="flavoursMenu-item">

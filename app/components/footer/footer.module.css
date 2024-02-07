@@ -1,68 +1,114 @@
-.container{
-    background-color: var(--red);
-    color: white;
-    font-family: var(--mono-font);
+.container {
+  background-color: var(--red);
+  color: white;
+  font-family: var(--mono-font);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1%;
 }
 
-.wrap{
-    display: flex;
-    flex-direction: row;
-    font-size: .6rem;
-    text-align: left;
+.container p {
+  font-size: 12px;
+  /* margin: 0px; */
 }
 
-.column{
-    padding: 0px;
-    flex: 25%;
-    height:100%;
-    padding:5px;
+.container h1 {
+  font-size: 18px;
+  font-weight: 500;
+  /* margin: 0px; */
+}
+
+.column {
+  padding: 0px;
+  flex: 25%;
+  height: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.logo {
+  height: 60px;
+}
+.icon {
+  height: 50px;
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 2px;
+}
+.disclaimer {
+  text-decoration: underline;
+}
+.disclaimerText {
+  margin-bottom: 50px;
+}
+.disclaimerText > p {
+  font-size: 12px;
+  border: solid 1px white;
+  background-color: var(--red);
+  height: 100px;
+  width: 80%;
+  overflow: hidden;
+  overflow-y: scroll;
+  color: white;
+  padding: 2%;
+  border-radius: 20px;
+}
+.follow {
+  padding: 1%;
+}
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  width: 60px;
+}
+/* .iconLeft{
+    flex: 50%; 
+} */
+.iconRight {
+  flex: 50%;
+}
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+  }
+
+  .column {
+    /* flex: 25%; */
+    /* height:100%; */
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.logo{
-    height: 40px;
-}
-.icon{
-    height: 50px;
-    cursor: pointer;
-    font-size: 2rem;
-    padding: 2px;
-}
-.disclaimer{
-    text-decoration: underline;
-}
-.disclaimerText{
-    margin-bottom: 50px;
-}
-.disclaimerText>p{
-    font-size: 10px;
-    border: solid 1px white;
-    background-color: var(--red);
-    height: 100px;
-    width: 80%;
-    overflow: hidden;
-    overflow-y: scroll;
-    color: white;
-    padding: 2%;
-    border-radius: 20px;
-}
-.follow{
-    padding: 1%;
-}
-.iconContainer{
+  }
+
+  .acknowledge {
     display: flex;
-    flex-direction: row;  
-    width: 60px;;
-}
-.iconLeft{
-    flex: 50%; 
-}
-.iconRight{
-    flex: 50%; 
-}
-@media (max-width: 767px) {
-    .wrap{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  /* .wrap{
         flex-direction: row;
     }
     .column{
@@ -70,6 +116,5 @@
     }
     .iconContainer{
         display: none;
-    }
-
+    } */
 }
