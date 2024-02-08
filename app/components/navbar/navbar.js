@@ -45,9 +45,9 @@ export default function Navbar(){
                     <div className={styles.tradeTime} >
                         <div className={`${styles.follow} ${styles.OpeningTitle}`}>Opening hours:</div>
                         {/* <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Wed: 3pm-9pm</div> */}
-                        <div className={`${styles.follow} ${styles.OpeningTime}`}><strong>Coffe shop:</strong></div>
+                        <div className={`${styles.follow} ${styles.OpeningTime}`}><strong>Café:</strong></div>
                         <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Sun: 7.00 am–12.00 pm</div>
-                        <div className={`${styles.follow} ${styles.OpeningTime}`}><strong>Ice cream:</strong></div>
+                        <div className={`${styles.follow} ${styles.OpeningTime}`}><strong>Gelato:</strong></div>
                         <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Sun: 12.00 pm–10.00 pm</div>
                     </div>
                 </div>
