@@ -31,7 +31,7 @@ export default function Navbar(){
                 <li><a href="/">Authentic Gelato</a></li>
                 <li><a href="/ourstory">Our Story</a></li>
                 <li><a href="/flavours">Traditional Flavours</a></li>
-                {/* <li><a href="/onlineorders">Online Orders</a></li>  */}
+                <li><a href="/onlineorders">Online Orders</a></li> 
                 <li><a href="/faq">FAQ<span>s</span></a></li>
                 <li><a href="/contact">Find us</a></li>               
                 <div className={styles.wrap}>

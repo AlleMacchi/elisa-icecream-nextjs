@@ -54,6 +54,7 @@ main{
   float: left;
   overflow: hidden;
   overflow-y: scroll;
+  
  }
 footer{
   height: var(--height-footer);
