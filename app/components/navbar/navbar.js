@@ -31,6 +31,7 @@ export default function Navbar(){
                 <li><a href="/">Authentic Gelato</a></li>
                 <li><a href="/ourstory">Our Story</a></li>
                 <li><a href="/flavours">Traditional Flavours</a></li>
+                {/* <li><a href="/onlineorders">Online Orders</a></li>  */}
                 <li><a href="/faq">FAQ<span>s</span></a></li>
                 <li><a href="/contact">Find us</a></li>               
                 <div className={styles.wrap}>
@@ -46,7 +47,7 @@ export default function Navbar(){
                         <div className={`${styles.follow} ${styles.OpeningTitle}`}><strong>Opening Hours</strong></div>
                         {/* <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Wed: 3pm-9pm</div> */}
                         <div className={`${styles.follow} ${styles.OpeningTime}`}><strong>Café</strong></div>
-                        <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Sun: 7.00 am–12.00 pm</div>
+                        <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Sat: 7.00 am–12.00 pm</div>
                         <div className={`${styles.follow} ${styles.OpeningTime}`}><strong>Gelato</strong></div>
                         <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Sun: 12.00 pm–10.00 pm</div>
                     </div>

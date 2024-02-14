@@ -37,7 +37,7 @@ function ContactDetails2() {
               <div>
                 <strong>Café</strong>
               </div>
-              <div>Mon-Sun: 7.00 am – 12.00 pm</div>
+              <div>Mon-Sat: 7.00 am – 12.00 pm</div>
               <br></br>
               <div>
                 <strong>Gelato</strong>
