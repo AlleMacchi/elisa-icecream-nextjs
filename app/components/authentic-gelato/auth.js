@@ -6,8 +6,8 @@ export default function AuthenticGelato() {
   return (
     <>
       <Head
-        title="Elisa Gelato | Authentic Italian Gelato | Italian Gelateria"
-        content="Indulge in the deliciousness of authentic gelato at Elisa Gelato Randwick. Taste the best italian ice cream creamy flavors that will transport you to Italy. Come to experience an
+        title="Elisa Gelato | Authentic Italian Gelato | Italian Gelateria Sydney"
+        content="Indulge in the deliciousness of authentic italian gelato at Elisa Gelato in Randwick. Taste the best italian ice cream in Sydney, creamy gelato flavors that will transport you to Italy.If you are looking for a Gelateria Sydney Come to experience an
             Authentic Italian Gelateria!"
         href="https://elisagelato.com.au/"
         srcScript="/clarity.js"
@@ -17,7 +17,7 @@ export default function AuthenticGelato() {
         <div className={styles.wrap}>
           <div className={styles.title}>
             <h1>Authentic gelato</h1>
-          </div> 
+          </div>
 
           <div className={`${styles.text} ${styles.text1}`}>
             <p>

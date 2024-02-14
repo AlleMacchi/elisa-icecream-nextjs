@@ -7,8 +7,8 @@ function ContactDetails2() {
   return (
     <>
       <Head
-        title="Find Us"
-        content="Where is Elisa Gelato in Sydney"
+        title="Find Us | Elisa Gelato | Italian Gelato Sydney"
+        content="Find the best gelato near you at our gelato shop Elisa Gelato, 32-34 Perouse Rd, Randwick NSW 2031, Australia. Visit us to experience the best Italian ice cream in Sydney."
         href="https://elisagelato.com.au/contact"
       />
       <div className={styles.container}>
