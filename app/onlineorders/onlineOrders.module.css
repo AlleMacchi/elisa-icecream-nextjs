@@ -5,7 +5,9 @@
   justify-content: center;
   width: 100%;
   gap: 50px;
+  padding-bottom: 20px;
 }
+
 
 .title {
   flex: 100%;
@@ -124,12 +126,10 @@
   .CTA a {
     width: 40%;
   }
+  
 }
 
 @media (max-width: 650px) {
-  .container {
-    padding-bottom: 20px;
-  }
 
   .title {
     text-align: center;
