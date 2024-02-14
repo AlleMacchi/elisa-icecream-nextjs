@@ -9,7 +9,7 @@ export default function OnlineOrders() {
       <Head
         title="Gelato delivery | Elisa Gelato | Italian Gelato Sydney"
         content="Order online thorugh our delivery partners DoorDash and UberEats and get at home ice cream delivery.Order online with Elisa Gelato, 32-34 Perouse Rd, Randwick NSW 2031, Australia."
-        href="https://elisagelato.com.au/onlineorders"
+        href="https://elisagelato.com.au/gelato-delivery-sydney-online-orders"
       />
       <div className={styles.container}>
         <div className={styles.title}>
