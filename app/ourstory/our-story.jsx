@@ -9,6 +9,7 @@ export default function OurStory() {
         title="Our Story | Elisa Gelato | Italian Gelato Sydney"
         content="A love story with italian gelato bringing Bolognastyle best ice cream to Sydney. Taste the love at our Italian Gelateria in Sydney, 32-34 Perouse Rd, Randwick NSW 2031, Australia."
         href="https://elisagelato.com.au/ourstory"
+        srcScript="/clarity.js"
       />
       <div className={styles.container}>
         {/* Laptop Version    */}

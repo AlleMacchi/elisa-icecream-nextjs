@@ -9,6 +9,7 @@ export default function FaqDetails() {
         title="Frequently Asked Questions | Elisa Gelato | Italian Gelato Sydney"
         content="Find answers to your questions about Elisa Gelato, the best Italian gelato in Sydney. Visit us at 32-34 Perouse Rd, Randwick NSW 2031, Australia."
         href="https://elisagelato.com.au/faq"
+        srcScript="/clarity.js"
       />
       <div className="container-faq">
         <section className="text-gray-700">
