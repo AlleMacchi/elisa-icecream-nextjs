@@ -5,13 +5,6 @@ import GoogleTag from '../GooglTag/GoogleTag';
 export default function AuthenticGelato(){
     return(
         <>
-            <Head
-                title='Authentic gelato'
-                content="Elisa Gelato, experience the true taste of Bologna without leaving Sydney"
-                href="https://elisagelato.com.au/" 
-                srcScript="/clarity.js"
-            />
-
             <div className={styles.container}>
                 <div className={styles.wrap}>
                 <div className={styles.title}>
