@@ -9,8 +9,7 @@ export default function Home() {
       <>
         <Head
           title="Elisa Gelato | Authentic Italian Gelato | Italian Gelateria Sydney"
-          content="Tansport your self to Italy wih a taste of the best italian ice cream in Sydney.If you are looking for a Italian Gelateria Sydney Come to experience an
-            Authentic Italian Gelato in Randiwck!"
+          content="Transport yourself to Italy with a taste of the best Italian ice cream in Sydney. Come to experience an Authentic Italian Gelato in Randwick!"
           href="https://elisagelato.com.au/"
           srcScript="/clarity.js"
         />
