@@ -35,7 +35,7 @@ export default function Footer() {
       </div>
       <div className={styles.column}>
         <div className={styles.contacts}>
-          <h1>Elisa Gelato Pty Ltd</h1>
+          <h2>Elisa Gelato Pty Ltd</h2>
           <p>
             Address: <a href="https://www.google.com/maps/place/Elisa+Gelato+%7C+Authentic+Italian+Gelato/@-33.9197391,151.2423377,15z/data=!4m2!3m1!1s0x0:0x4d17bf38ae964de6?sa=X&ved=2ahUKEwisoqDz5pWEAxVKRmwGHQUHDIMQ_BJ6BAgOEAA">
               32-34 Perouse Road, Randwick NSW 2031
