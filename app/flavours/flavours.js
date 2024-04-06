@@ -6,7 +6,7 @@ export default function FlavoursMenu() {
     <>
       <Head
         title="Gelato Flavors | Elisa Gelato | Italian Gelato Sydney"
-        content="Traditional Italian ice cream. Come to explore our best italian ice cream Flavours in Sydney at Elisa Gelato, 32-34 Perouse Rd, Randwick NSW 2031, Australia."
+        content="Traditional Italian gelato. Our best Italian ice cream Flavours in Sydney at Elisa Gelato, 32-34 Perouse Rd, Randwick NSW 2031, Australia."
         href="https://elisagelato.com.au/flavours"
         srcScript="/clarity.js"
       />
