@@ -5,6 +5,12 @@ import GoogleTag from '../GooglTag/GoogleTag';
 export default function AuthenticGelato(){
     return(
         <>
+           <Head
+          title="Elisa Gelato | Authentic Italian Gelato | Italian Gelateria Sydney"
+          content="Transport yourself to Italy with a taste of the best Italian ice cream in Sydney. If you are looking for an Italian Gelateria Sydney, Come to experience an Authentic Italian Gelato in Randiwck!"
+          href="https://elisagelato.com.au/"
+          srcScript="/clarity.js"
+            />
             <div className={styles.container}>
                 <div className={styles.wrap}>
                 <div className={styles.title}>
