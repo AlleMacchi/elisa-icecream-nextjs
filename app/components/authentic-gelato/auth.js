@@ -36,7 +36,7 @@ export default function AuthenticGelato() {
           <img src="Serving.jpg"></img>
         </div>
         <div className={`${styles.img} ${styles.img2}`}>
-          <img src="Team.jpg"></img>
+          <img src="Team.webp"></img>
         </div>
         <div className={`${styles.text} ${styles.text2}`}>
           <p>
