@@ -75,7 +75,7 @@ export default function OurStory() {
               </p>
             </div>
             <div className={styles.mobile_item}>
-              <img src="ElisaBoard.webp"></img>
+              <img src="ElisaBoard.jpg"></img>
             </div>
             <div className={styles.mobile_item}>
               <img src="IMG_3293_Square.jpg"></img>
