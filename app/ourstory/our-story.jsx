@@ -44,7 +44,7 @@ export default function OurStory() {
           <div className={styles.img}>
             <div className={styles.column}>
               <img src="IMG_5995.jpg"></img>
-              <img src="ElisaBoard.webp"></img>
+              <img src="ElisaBoard.jpg"></img>
             </div>
             <div className={styles.column}>
               <img src="Owners.webp"></img>

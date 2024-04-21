@@ -26,7 +26,7 @@ export default class NextJsCarousel extends Component {
           >
             <div>
               <img
-                src="/Fragola.webp"
+                src="/Fragola.jpg"
                 id="Carousel1"
                 className="imageC"
                 alt="image1"
@@ -47,19 +47,19 @@ export default class NextJsCarousel extends Component {
             </div> */}
             <div id="Carousel4">
               <img
-                src="/Pistacchio1.webp"
+                src="/Pistacchio1.jpg"
                 id="Carusel4-1"
                 className="imageC"
                 alt="image3"
               />
               <img
-                src="/Pistacchio2.webp"
+                src="/Pistacchio2.jpg"
                 id="Carusel4-2"
                 className="imageC"
                 alt="image3"
               />
               <img
-                src="/Pistacchio3.webp"
+                src="/Pistacchio3.jpg"
                 id="Carusel4-3"
                 className="imageC"
                 alt="image3"
@@ -67,7 +67,7 @@ export default class NextJsCarousel extends Component {
             </div>
             <div>
               <img
-                src="/Elisa.webp"
+                src="/Elisa.jpg"
                 id="Carousel4and5"
                 className="imageC"
                 alt="image3"
@@ -83,7 +83,7 @@ export default class NextJsCarousel extends Component {
             </div> */}
             <div>
               <img
-                src="/Bacio.webp"
+                src="/Bacio.jpg"
                 id="Carousel6"
                 className="imageC"
                 alt="image3"
@@ -108,7 +108,7 @@ export default class NextJsCarousel extends Component {
           >
             <div>
               <img
-                src="/Fragola.webp"
+                src="/Fragola.jpg"
                 id="Carousel1"
                 className="imageC"
                 alt="image1"
@@ -126,7 +126,7 @@ export default class NextJsCarousel extends Component {
             </div>
             <div>
               <img
-                src="/Pistacchio3.webp"
+                src="/Pistacchio3.jpg"
                 id="Carusel4-3"
                 className="imageC"
                 alt="image3"
@@ -154,7 +154,7 @@ export default class NextJsCarousel extends Component {
             </div> */}
             <div>
               <img
-                src="/Elisa.webp"
+                src="/Elisa.jpg"
                 id="Carousel4and5"
                 className="imageC"
                 alt="image3"
@@ -162,7 +162,7 @@ export default class NextJsCarousel extends Component {
             </div>
             <div id="Carousel5">
               <img
-                src="/Chocolate.webp"
+                src="/Chocolate.jpg"
                 id="Carousel5"
                 className="imageC"
                 alt="image3"
