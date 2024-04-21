@@ -1,43 +1,70 @@
 .container{
-    padding: 0 5%;
+    padding: 0 1%;
     background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .box{
     z-index: 1;
-    max-width: 80vw;
+    width: 80%;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     background-color: #fff;
     box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
-
     display: flex;
-    flex-wrap: wrap;
-    margin: 10%;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    margin: 3%;
+}
+
+.shopView{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 40%;
+    height: 60vh;
+}
+
+.shopView>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
   
-.left {
-    flex: 50%;
-    height: 50vh;
+.map {
+    /* flex: 33%; */
+    /* height: 60vh; */
+    width: 100%;
 /*     background-image: url("/Contact.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
+    flex: 40%;
+    height: 60vh;
 
 }
 
-.right{
-    flex: 50%;
-    padding: 5% 0;
+.contactDetails{
+    width: 50%;
+    /* flex: 50%; */
+    padding: 5%;
     text-align: left;
     padding: 20px;
-    font-size: .8rem;
+    font-size: 1rem;
     color: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-.right>h1{
+.contactDetails>h1{
     position: relative;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -47,7 +74,7 @@
     color: var(--red);
   }
   
-  .right>h1:after{
+  .contactDetails>h1:after{
     content: '';
     position: absolute;
     left: 25px;
@@ -100,19 +127,35 @@
 
   @media (max-width: 992px) {
     .container{
-        padding: 5%;
+        padding: 0px;
         background-color: var(--white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
-    .left {
+    .box{
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+      flex-wrap: wrap;
+    }
+
+    .shopView{
+        flex: 100%;
+        height: 33vh;
+    }
+    
+    .map {
         flex: 100%;
         height: 33vh;
     }
 
-    .right{
+    .contactDetails{
         flex: 100%;
     }
 
     .field{
-      font-size: calc(100vw/35);
+      /* font-size: calc(100vw/35); */
     }
   }

@@ -51,10 +51,13 @@
     margin-top: 8px!important;
     width: 95%;
     vertical-align: middle!important;
+    /* height: 100%; */
 }
+
 .column {
     flex: 50%;
     max-width: 50%;
+    /* height: 100%; */
   }
 
 .mobile{
@@ -118,4 +121,5 @@
     .wrap{
         display: none;
     }
+
 }

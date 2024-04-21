@@ -44,10 +44,10 @@ export default function OurStory() {
           <div className={styles.img}>
             <div className={styles.column}>
               <img src="IMG_5995.jpg"></img>
-              <img src="Caramel ice cream and waffle cones stock photo.jpg"></img>
+              <img src="ElisaBoard.jpg"></img>
             </div>
             <div className={styles.column}>
-              <img src="Barman is serving ice cream stock photo.jpg"></img>
+              <img src="Owners.jpg"></img>
               <img src="IMG_3293.jpg"></img>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function OurStory() {
               <img src="IMG_5995_Square.jpg"></img>
             </div>
             <div className={styles.mobile_item}>
-              <img src="Caramel ice cream and waffle cones stock photo_Square.jpg"></img>
+              <img src="Owners.jpg"></img>
             </div>
             <div className={styles.mobile_item_text}>
               <p>
@@ -75,7 +75,7 @@ export default function OurStory() {
               </p>
             </div>
             <div className={styles.mobile_item}>
-              <img src="Barman is serving ice cream stock photo_Square.jpg"></img>
+              <img src="ElisaBoard.jpg"></img>
             </div>
             <div className={styles.mobile_item}>
               <img src="IMG_3293_Square.jpg"></img>

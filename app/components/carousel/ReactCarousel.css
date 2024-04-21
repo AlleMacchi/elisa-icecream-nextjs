@@ -1,42 +1,126 @@
-.carousel{
-    border-radius: 0px!important;
-    width: 95%!important;
-    box-shadow: 10px 5px 10px 5px var(--grey-light);
+#Carousel1 {
+  /* object-fit: cover; */
+  /* object-position: 0% 40%; */
 }
 
-.imageC{
-    width: 100%!important;
-    max-height: 700px;
-    object-fit: cover;
+#Carousel2 {
+  object-fit: cover;
+  /* object-position: 50% 30%; */
+  height: 65vh;
 }
 
-.carousel-root{
-    display:-webkit-flex;
-    display:-moz-flex;
-    display:-ms-flex;
-    display:flex;
-    -webkit-flex-direction:row;
-    flex-direction:row;
-    -webkit-justify-content:center;
-    justify-content:center;
-    margin-top: 2.5%!important;
-    margin-bottom: 2.5%!important;
-    
+#Carousel3 {
+  object-fit: cover;
+  object-position: 0% 50%;
+  height: 65vh;
 }
-.Horizontal{
-    display: block;
-    
-}
-.Vertical{
-    display: none;
 
+#Carousel4 {
+  width: 100%;
+  object-fit: contain;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}
+
+#Carusel4-1,
+#Carusel4-2,
+#Carusel4-3 {
+  flex: 33%;
+  object-fit: cover;
+  width: 33%;
+  overflow: hidden;
+  height: 65vh;
+}
+
+#Carousel4and5 {
+  object-fit: cover;
+  object-position: 50% 35%;
+  height: 65vh;
+}
+
+#Carousel5 {
+  display: flex;
+  object-fit: cover;
+  /* object-position: 50% 30%; */
+  height: 65vh;
+}
+
+#Carousel6 {
+  object-fit: cover;
+  object-position: 50% 50%;
+  height: 65vh;
+}
+
+.carousel {
+  border-radius: 0px !important;
+  width: 95% !important;
+  box-shadow: 10px 5px 10px 5px var(--grey-light);
+  max-height: 65vh;
+}
+
+.carousel div {
+  display: flex;
+  flex-direction: row;
+}
+
+.imageC {
+  width: 100% !important;
+  max-height: 700px;
+  object-fit: cover;
+}
+
+.carousel-root {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-top: 2.5% !important;
+  margin-bottom: 2.5% !important;
+}
+
+.Horizontal {
+  display: block;
+}
+.Vertical {
+  display: none;
 }
 
 @media (max-width: 992px) {
-    .Horizontal{
-        display: none;
-    }
-    .Vertical{
-        display: block;
-    }
+  .Horizontal {
+    display: none;
   }
+  .Vertical {
+    display: block;
+  }
+  .carousel {
+    width: 100% !important;
+    margin-top: -10px !important;
+    height: 65vh;
+  }
+
+  #Carousel3 {
+    object-fit: cover;
+    object-position: 60% 50%;
+    height: 65vh !important;
+  }
+
+  #Carousel4 {
+    object-fit: cover;
+    object-position: 60% 50%;
+    height: 65vh !important;
+  }
+
+  #Carousel5 {
+    display: flex;
+    object-fit: cover;
+    /* object-position: 50% 30%; */
+    height: 65vh;
+  }
+}
