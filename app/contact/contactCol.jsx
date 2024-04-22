@@ -31,11 +31,12 @@ function ContactDetails2() {
                 <strong>Café</strong>
               </div>
               <div>Mon-Sat: 7.00 am – 12.00 pm</div>
+              <div>Sun: 8.00 am – 12.00 pm</div>
               <br></br>
               <div>
                 <strong>Gelato</strong>
               </div>
-              <div>Mon-Sun: 12.00 pm – 10.00 pm</div>
+              <div>Mon-Sun: 11.00 am – 10.00 pm</div>
             </div>
           </div>
           <div className={styles.map}>
