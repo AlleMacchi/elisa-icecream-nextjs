@@ -107,6 +107,16 @@
         padding: 10px;
       }
 
+    .ownersImg{
+        object-fit: cover;
+        object-position: 20% 50%;
+    }
+
+    .elisaBoard{
+        object-fit: cover;
+        object-position: 70% 50%;
+    }
+
     .title{
         font-size: calc(100vh/30);
         color: var(--red);
