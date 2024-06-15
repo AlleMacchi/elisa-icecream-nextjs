@@ -71,11 +71,12 @@ export default function Navbar() {
               </div>
             </div>
             <div className={styles.tradeTime}>
-              <div className={`${styles.follow} ${styles.OpeningTitle}`}>
+              {/* OLD Hours */}
+              {/* <div className={`${styles.follow} ${styles.OpeningTitle}`}>
                 <strong>Opening Hours</strong>
-              </div>
+              </div> */}
               {/* <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Wed: 3pm-9pm</div> */}
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
+              {/* <div className={`${styles.follow} ${styles.OpeningTime}`}>
                 <strong>Café</strong>
               </div>
               <div className={`${styles.follow} ${styles.OpeningTime}`}>
@@ -89,7 +90,20 @@ export default function Navbar() {
               </div>
               <div className={`${styles.follow} ${styles.OpeningTime}`}>
                 Mon-Sun: 11.00 am – 10.00 pm
+              </div> */}
+
+              {/* Winter Hours */}
+              <div className={`${styles.follow} ${styles.OpeningTitle}`}>
+                <strong>Winter Opening Hours</strong>
               </div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>OPEN THURSDAY TO SUNDAY UNTIL 10PM</div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>
+                <strong>Café: </strong>7am-2pm (Sunday 8am)
+              </div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>
+                <strong>Gelato:</strong> 12pm-10pm
+              </div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>Closed Mon-Wed</div>
             </div>
           </div>
         </ul>

@@ -36,9 +36,9 @@ export default function FlavoursMenu() {
         <div class="flavoursMenu-item">
           <img src="./Bacio.png"></img>
         </div>
-        <div class="flavoursMenu-item">
+        {/* <div class="flavoursMenu-item">
           <img src="./Arachide.png"></img>
-        </div>
+        </div> */}
         <div class="flavoursMenu-item">
           <img src="./Cioccolato.png"></img>
         </div>
@@ -66,9 +66,9 @@ export default function FlavoursMenu() {
         <div class="flavoursMenu-item">
           <img src="./Nutella.webp"></img>
         </div>
-        <div class="flavoursMenu-item">
+        {/* <div class="flavoursMenu-item">
           <img src="./FruttiDiBosco.webp"></img>
-        </div>
+        </div> */}
         <div class="flavoursMenu-item">
           <img src="./Caffe.webp"></img>
         </div>
@@ -77,7 +77,7 @@ export default function FlavoursMenu() {
         </div>
 
         {/* Granite */}
-        <div class="flavoursMenu-item"></div>
+        {/* <div class="flavoursMenu-item"></div> */}
         <div class="flavoursMenu-item">
           <img src="./Granita alla Fragola.png"></img>
         </div>

@@ -23,7 +23,7 @@ function ContactDetails2() {
             <div>Phone: 0430 568 805</div>
             <br></br>
             <div>
-              <div>
+              {/* <div>
                 <strong>Opening Hours</strong>
               </div>
               <br></br>
@@ -36,7 +36,22 @@ function ContactDetails2() {
               <div>
                 <strong>Gelato</strong>
               </div>
-              <div>Mon-Sun: 11.00 am – 10.00 pm</div>
+              <div>Mon-Sun: 11.00 am – 10.00 pm</div> */}
+              <div>
+                <strong>Winter Opening Hours</strong>
+              </div>
+              <br></br>
+              <div>OPEN THURSDAY TO SUNDAY UNTIL 10PM</div>
+              <br></br>
+              <div>
+                <strong>Café: </strong>7am-2pm (Sunday 8am)
+              </div> 
+              <br></br>
+              <div>
+                <strong>Gelato:</strong> 12pm-10pm
+              </div>
+              <br></br>
+              <div>(Closed Mon-Wed)</div>
             </div>
           </div>
           <div className={styles.map}>
