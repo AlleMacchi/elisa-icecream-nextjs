@@ -22,36 +22,44 @@ function ContactDetails2() {
             <div>32-34 Perouse Road, Randwick NSW 2031</div>
             <div>Phone: 0430 568 805</div>
             <br></br>
-            <div>
-              {/* <div>
+            <div className={styles.tradeTime}>
+              {/* OLD Hours */}
+              {/* <div className={`${styles.follow} ${styles.OpeningTitle}`}>
                 <strong>Opening Hours</strong>
-              </div>
-              <br></br>
-              <div>
+              </div> */}
+              {/* <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Wed: 3pm-9pm</div> */}
+              {/* <div className={`${styles.follow} ${styles.OpeningTime}`}>
                 <strong>Café</strong>
               </div>
-              <div>Mon-Sat: 7.00 am – 2.00 pm</div>
-              <div>Sun: 8.00 am – 2.00 pm</div>
-              <br></br>
-              <div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>
+                Mon-Sat: 7.00 am – 2.00 pm
+              </div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>
+                Sun: 8.00 am – 2.00 pm
+              </div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>
                 <strong>Gelato</strong>
               </div>
-              <div>Mon-Sun: 11.00 am – 10.00 pm</div> */}
-              <div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>
+                Mon-Sun: 11.00 am – 10.00 pm
+              </div> */}
+
+              {/* Winter Hours */}
+              <div className={`${styles.follow} ${styles.OpeningTitle}`}>
                 <strong>Winter Opening Hours</strong>
               </div>
-              <br></br>
-              <div>OPEN THURSDAY TO SUNDAY UNTIL 10PM</div>
-              <br></br>
-              <div>
-                <strong>Café: </strong>7am-2pm (Sunday 8am)
-              </div> 
-              <br></br>
-              <div>
-                <strong>Gelato:</strong> 12pm-10pm
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>OPEN TUESDAY TO SUNDAY UNTIL 10PM</div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>
+                <strong>Café: </strong> 
+                <p>Thurs to Sat 7:00am-2:00pm</p> 
+                <p>Sun 8:00am-2:00pm </p>
               </div>
-              <br></br>
-              <div>(Closed Mon-Wed)</div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>
+                <strong>Gelato:</strong> 
+                <p>Tues & Wed 5:00pm-10:00pm</p>
+                <p>Thurs to Sun 12:00pm-10:00pm</p>
+              </div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}><strong>Closed Monday</strong></div>
             </div>
           </div>
           <div className={styles.map}>
