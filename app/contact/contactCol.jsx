@@ -23,6 +23,20 @@ function ContactDetails2() {
             <div>Phone: 0430 568 805</div>
             <br></br>
             <div className={styles.tradeTime}>
+            <div className={`${styles.follow} ${styles.OpeningTitle}`}>
+                <strong>Spring Opening Hours</strong>
+              </div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>OPEN EVERYDAY UNTIL 10PM</div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>
+                <strong>Café: </strong> 
+                <p>Wed to Sat 7:00am-2:00pm</p> 
+                {/* <p>Sun 8:00am-2:00pm </p> */}
+              </div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>
+                <strong>Gelato:</strong> 
+                <p>Mon & Tues 5:00pm-10:00pm</p>
+                <p>Wed to Sun 11:00am-10:00pm</p>
+              </div>
               {/* OLD Hours */}
               {/* <div className={`${styles.follow} ${styles.OpeningTitle}`}>
                 <strong>Opening Hours</strong>
@@ -45,7 +59,7 @@ function ContactDetails2() {
               </div> */}
 
               {/* Winter Hours */}
-              <div className={`${styles.follow} ${styles.OpeningTitle}`}>
+              {/* <div className={`${styles.follow} ${styles.OpeningTitle}`}>
                 <strong>Winter Opening Hours</strong>
               </div>
               <div className={`${styles.follow} ${styles.OpeningTime}`}>OPEN TUESDAY TO SUNDAY UNTIL 10PM</div>
@@ -59,8 +73,10 @@ function ContactDetails2() {
                 <p>Tues & Wed 5:00pm-10:00pm</p>
                 <p>Thurs to Sun 12:00pm-10:00pm</p>
               </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}><strong>Closed Monday</strong></div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}><strong>Closed Monday</strong></div> */}
             </div>
+            {/* Spring Hours */}
+            
           </div>
           <div className={styles.map}>
             <iframe
