@@ -109,19 +109,38 @@ export default function Navbar() {
               </div> */}
               {/* Sping Hours */}
               {/* <div className={`${styles.follow} ${styles.OpeningTime}`}><strong>Closed Monday</strong></div> */}
-              <div className={`${styles.follow} ${styles.OpeningTitle}`}>
+              {/* <div className={`${styles.follow} ${styles.OpeningTitle}`}>
                 <strong>Spring Opening Hours</strong>
               </div>
               <div className={`${styles.follow} ${styles.OpeningTime}`}>OPEN EVERYDAY UNTIL 10PM</div>
               <div className={`${styles.follow} ${styles.OpeningTime}`}>
                 <strong>Café: </strong> 
                 <p>Tues to Sat 7:00am-2:00pm</p> 
-                {/* <p>Sun 8:00am-2:00pm </p> */}
+                <p>Sun 8:00am-2:00pm </p>
               </div>
               <div className={`${styles.follow} ${styles.OpeningTime}`}>
                 <strong>Gelato:</strong> 
                 <p>Mon 5:00pm-10:00pm</p>
                 <p>Tues to Sun 11:00am-10:00pm</p>
+              </div> */}
+              <div className={`${styles.follow} ${styles.OpeningTitle}`}>
+                <strong>Autumn Opening Hours</strong>
+              </div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>
+                OPEN TUESDAY TO SUNDAY UNTIL 10PM
+              </div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>
+                <strong>Café: </strong>
+                <p>Tues to Sat 7:00am-2:00pm</p>
+                {/* <p>Sun 8:00am-2:00pm </p> */}
+              </div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>
+                <strong>Gelato:</strong>
+                <p>Tues to Sat 11:00am-10:00pm</p>
+                <p>Sun 1:00pm-10:00pm</p>
+              </div>
+              <div className={`${styles.follow} ${styles.OpeningTime}`}>
+                <strong>(Closed On Monday)</strong>
               </div>
             </div>
           </div>
