@@ -11,6 +11,14 @@ export default function Navbar() {
     setChecked(!checked);
   };
 
+  // Helper to render hours with bold day and italic time
+  const renderHour = (day, time) => (
+    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+      <strong>{day}</strong>
+      <span style={{ fontStyle: "italic", textAlign: "right" }}>{time}</span>
+    </div>
+  );
+
   return (
     <nav className={styles.navbar}>
       <div className={styles.navbarcontainer}>
@@ -18,7 +26,6 @@ export default function Navbar() {
         <div className={styles.hamburgerlines}>
           <span className={`${styles.line} ${styles.line1}`}></span>
           <span className={`${styles.line} ${styles.line2}`}></span>
-
           <span className={`${styles.line} ${styles.line3}`}></span>
         </div>
         <ul className={styles.menuitems}>
@@ -71,79 +78,53 @@ export default function Navbar() {
               </div>
             </div>
             <div className={styles.tradeTime}>
-              {/* OLD Hours */}
-              {/* <div className={`${styles.follow} ${styles.OpeningTitle}`}>
-                <strong>Opening Hours</strong>
-              </div> */}
-              {/* <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Wed: 3pm-9pm</div> */}
-              {/* <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Café</strong>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                Mon-Sat: 7.00 am – 2.00 pm
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                Sun: 8.00 am – 2.00 pm
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Gelato</strong>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                Mon-Sun: 11.00 am – 10.00 pm
-              </div> */}
-
-              {/* Winter Hours */}
-              {/* <div className={`${styles.follow} ${styles.OpeningTitle}`}>
+              <p style={{ fontSize: "1.2em", marginBottom: "0.5em" }}>
                 <strong>Winter Opening Hours</strong>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>OPEN TUESDAY TO SUNDAY UNTIL 10PM</div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Café: </strong> 
-                <p>Thurs to Sat 7:00am-2:00pm</p> 
-                <p>Sun 8:00am-2:00pm </p>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Gelato:</strong> 
-                <p>Tues & Wed 5:00pm-10:00pm</p>
-                <p>Thurs to Sun 12:00pm-10:00pm</p>
-              </div> */}
-              {/* Sping Hours */}
-              {/* <div className={`${styles.follow} ${styles.OpeningTime}`}><strong>Closed Monday</strong></div> */}
-              {/* <div className={`${styles.follow} ${styles.OpeningTitle}`}>
-                <strong>Spring Opening Hours</strong>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>OPEN EVERYDAY UNTIL 10PM</div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Café: </strong> 
-                <p>Tues to Sat 7:00am-2:00pm</p> 
-                <p>Sun 8:00am-2:00pm </p>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Gelato:</strong> 
-                <p>Mon 5:00pm-10:00pm</p>
-                <p>Tues to Sun 11:00am-10:00pm</p>
-              </div> */}
-              <div className={`${styles.follow} ${styles.OpeningTitle}`}>
-                <strong>Autumn Opening Hours</strong>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                OPEN TUESDAY TO SUNDAY UNTIL 10PM
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Café: </strong>
-                <p>Tues to Sat 7:00am-2:00pm</p>
-                {/* <p>Sun 8:00am-2:00pm </p> */}
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Gelato:</strong>
-                <p>Tues to Sat 11:00am-10:00pm</p>
-                <p>Sun 1:00pm-10:00pm</p>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>(Closed On Monday)</strong>
+              </p>
+              <div></div>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <strong>Monday</strong>
+                  <span style={{ fontStyle: "", textAlign: "right" }}>Closed</span>
+                </div>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <strong>Tuesday</strong>
+                  <span style={{ fontStyle: "", textAlign: "right" }}>7am - 9pm</span>
+                </div>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <strong>Wednesday</strong>
+                  <span style={{ fontStyle: "", textAlign: "right" }}>7am - 9pm</span>
+                </div>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <strong>Thursday</strong>
+                  <span style={{ fontStyle: "", textAlign: "right" }}>7am - 9pm</span>
+                </div>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <strong>Friday</strong>
+                  <span style={{ fontStyle: "", textAlign: "right" }}>7am - 10pm</span>
+                </div>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <strong>Saturday</strong>
+                  <span style={{ fontStyle: "", textAlign: "right" }}>7am - 10pm</span>
+                </div>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <strong>Sunday</strong>
+                  <span style={{ fontStyle: "", textAlign: "right" }}>1pm - 9pm</span>
+                </div>
+                <p style={{ fontSize: "", marginTop: "0.5em" }}>
+                  <span style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                    <strong>Café</strong>
+                    <span style={{ fontStyle: "", textAlign: "right" }}>until 2pm</span>
+                  </span>
+                </p>
+                <p style={{ fontSize: "" }}>
+                  <span style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                    <strong>Gelato</strong>
+                    <span style={{ fontStyle: "", textAlign: "right" }}>from 1pm</span>
+                  </span>
+                </p>
               </div>
             </div>
-          </div>
+          
         </ul>
         <div className={styles.logo}>
           <a className={styles.logoFull} href="/">
