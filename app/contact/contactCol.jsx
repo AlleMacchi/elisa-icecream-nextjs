@@ -102,48 +102,39 @@ function ContactDetails2() {
               <div className={`${styles.follow} ${styles.OpeningTime}`}><strong>Closed Monday</strong></div> */}
               <div className={styles.tradeTime}>
               <p style={{ fontSize: "1.2em", marginBottom: "0.5em" }}>
-                <strong>Winter Opening Hours</strong>
+                <strong>Autumn Opening Hours</strong>
               </p>
               <div></div>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                   <strong>Monday</strong>
-                  <span style={{ fontStyle: "", textAlign: "right" }}>Closed</span>
+                  <span style={{ textAlign: "right" }}>5pm - 9pm</span>
                 </div>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                   <strong>Tuesday</strong>
-                  <span style={{ fontStyle: "", textAlign: "right" }}>7am - 9pm</span>
+                  <span style={{ textAlign: "right" }}>5pm - 9pm</span>
                 </div>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                   <strong>Wednesday</strong>
-                  <span style={{ fontStyle: "", textAlign: "right" }}>7am - 9pm</span>
+                  <span style={{ textAlign: "right" }}>5pm - 9pm</span>
                 </div>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                   <strong>Thursday</strong>
-                  <span style={{ fontStyle: "", textAlign: "right" }}>7am - 9pm</span>
+                  <span style={{ textAlign: "right" }}>12pm - 10pm</span>
                 </div>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                   <strong>Friday</strong>
-                  <span style={{ fontStyle: "", textAlign: "right" }}>7am - 10pm</span>
+                  <span style={{ textAlign: "right" }}>12pm - 10pm</span>
                 </div>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                   <strong>Saturday</strong>
-                  <span style={{ fontStyle: "", textAlign: "right" }}>7am - 10pm</span>
+                  <span style={{ textAlign: "right" }}>12pm - 10pm</span>
                 </div>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                   <strong>Sunday</strong>
-                  <span style={{ fontStyle: "", textAlign: "right" }}>1pm - 9pm</span>
+                  <span style={{ textAlign: "right" }}>1pm - 9pm</span>
                 </div>
-                <p style={{ fontSize: "", marginTop: "0.5em" }}>
-                  <span style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                    <strong>Café</strong>
-                    <span style={{ fontStyle: "", textAlign: "right" }}>until 2pm</span>
-                  </span>
-                </p>
-                <p style={{ fontSize: "" }}>
-                  <span style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                    <strong>Gelato</strong>
-                    <span style={{ fontStyle: "", textAlign: "right" }}>from 1pm</span>
-                  </span>
+                <p style={{ fontSize: "0.95em", marginTop: "0.8em", fontWeight: "bold", color: "#000", textAlign: "center" }}>
+                  (our Café is now closed)
                 </p>
               </div>
             </div>
