@@ -1,0 +1,41 @@
+{
+  "title": "Spring Opening Hours",
+  "note": "(our Café is now closed)",
+  "days": [
+    {
+      "day": "Monday",
+      "hours": "5pm - 9pm",
+      "closed": false
+    },
+    {
+      "day": "Tuesday",
+      "hours": "5pm - 9pm",
+      "closed": false
+    },
+    {
+      "day": "Wednesday",
+      "hours": "5pm - 9pm",
+      "closed": false
+    },
+    {
+      "day": "Thursday",
+      "hours": "12pm - 10pm",
+      "closed": false
+    },
+    {
+      "day": "Friday",
+      "hours": "12pm - 10pm",
+      "closed": false
+    },
+    {
+      "day": "Saturday",
+      "hours": "12pm - 10pm",
+      "closed": false
+    },
+    {
+      "day": "Sunday",
+      "hours": "1pm - 9pm",
+      "closed": false
+    }
+  ]
+}

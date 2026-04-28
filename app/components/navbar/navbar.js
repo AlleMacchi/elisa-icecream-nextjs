@@ -3,6 +3,7 @@ import React from "react";
 import styles from "./navbar.module.css";
 import { FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
 import { SiDoordash, SiUbereats } from "react-icons/si";
+import OpeningHours from "../opening-hours/OpeningHours";
 
 export default function Navbar() {
   const [checked, setChecked] = React.useState(false);
@@ -10,14 +11,6 @@ export default function Navbar() {
   const handleChange = () => {
     setChecked(!checked);
   };
-
-  // Helper to render hours with bold day and italic time
-  const renderHour = (day, time) => (
-    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-      <strong>{day}</strong>
-      <span style={{ fontStyle: "italic", textAlign: "right" }}>{time}</span>
-    </div>
-  );
 
   return (
     <nav className={styles.navbar}>
@@ -78,42 +71,8 @@ export default function Navbar() {
               </div>
             </div>
             <div className={styles.tradeTime}>
-              <p style={{ fontSize: "1.2em", marginBottom: "0.5em" }}>
-                <strong>Autumn Opening Hours</strong>
-              </p>
-              <div></div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <strong>Monday</strong>
-                  <span style={{ textAlign: "right" }}>5pm - 9pm</span>
-                </div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <strong>Tuesday</strong>
-                  <span style={{ textAlign: "right" }}>5pm - 9pm</span>
-                </div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <strong>Wednesday</strong>
-                  <span style={{ textAlign: "right" }}>5pm - 9pm</span>
-                </div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <strong>Thursday</strong>
-                  <span style={{ textAlign: "right" }}>12pm - 10pm</span>
-                </div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <strong>Friday</strong>
-                  <span style={{ textAlign: "right" }}>12pm - 10pm</span>
-                </div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <strong>Saturday</strong>
-                  <span style={{ textAlign: "right" }}>12pm - 10pm</span>
-                </div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <strong>Sunday</strong>
-                  <span style={{ textAlign: "right" }}>1pm - 9pm</span>
-                </div>
-                <p style={{ fontSize: "0.95em", marginTop: "0.8em", fontWeight: "bold", color: "#000", textAlign: "center" }}>
-                  (our Café is now closed)
-                </p>
-              </div>
+              <OpeningHours />
+            </div>
             </div>
           
         </ul>

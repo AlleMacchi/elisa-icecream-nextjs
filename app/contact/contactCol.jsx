@@ -2,12 +2,9 @@ import React from "react";
 import "./Contact.css";
 import styles from "./contact.module.css";
 import Head from "../components/head/head";
-
-
+import OpeningHours from "../components/opening-hours/OpeningHours";
 
 function ContactDetails2() {
-
-
   return (
     <>
       <Head
@@ -26,118 +23,7 @@ function ContactDetails2() {
             <div>32-34 Perouse Road, Randwick NSW 2031</div>
             <div>Phone: 0430 568 805</div>
             <br></br>
-            <div className={styles.tradeTime}>
-              {/* <div className={`${styles.follow} ${styles.OpeningTitle}`}>
-                <strong>Autumn Opening Hours</strong>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                OPEN TUESDAY TO SUNDAY UNTIL 10PM
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Café: </strong>
-                <p>Tues to Sat 7:00am-2:00pm</p> */}
-              {/* <p>Sun 8:00am-2:00pm </p> */}
-              {/* </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Gelato:</strong>
-                <p>Tues to Sat 11:00am-10:00pm</p>
-                <p>Sun 1:00pm-10:00pm</p>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>(Closed On Monday)</strong>
-              </div> */}
-              {/* Spring Hours */}
-              {/* <div className={`${styles.follow} ${styles.OpeningTitle}`}>
-                <strong>Spring Opening Hours</strong>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                OPEN EVERYDAY UNTIL 10PM
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Café: </strong>
-                <p>Tues to Sat 7:00am-2:00pm</p>
-                <p>Sun 8:00am-2:00pm </p>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Gelato:</strong>
-                <p>Mon 5:00pm-10:00pm</p>
-                <p>Tues to Sun 11:00am-10:00pm</p>
-              </div> */}
-              {/* OLD Hours */}
-              {/* <div className={`${styles.follow} ${styles.OpeningTitle}`}>
-                <strong>Opening Hours</strong>
-              </div> */}
-              {/* <div className={`${styles.follow} ${styles.OpeningTime}`}>Mon-Wed: 3pm-9pm</div> */}
-              {/* <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Café</strong>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                Mon-Sat: 7.00 am – 2.00 pm
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                Sun: 8.00 am – 2.00 pm
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Gelato</strong>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                Mon-Sun: 11.00 am – 10.00 pm
-              </div> */}
-
-              {/* Winter Hours */}
-              {/* <div className={`${styles.follow} ${styles.OpeningTitle}`}>
-                <strong>Winter Opening Hours</strong>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>OPEN TUESDAY TO SUNDAY UNTIL 10PM</div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Café: </strong> 
-                <p>Tue to Sat 7:00am-2:00pm</p> 
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}>
-                <strong>Gelato:</strong> 
-                <p>Tues to Thurs 1:00pm-9:00pm</p>
-                <p>Fri & Sat 1:00pm-10:00pm</p>
-                <p>Sunday 1:00pm-9:00pm</p>
-              </div>
-              <div className={`${styles.follow} ${styles.OpeningTime}`}><strong>Closed Monday</strong></div> */}
-              <div className={styles.tradeTime}>
-              <p style={{ fontSize: "1.2em", marginBottom: "0.5em" }}>
-                <strong>Autumn Opening Hours</strong>
-              </p>
-              <div></div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <strong>Monday</strong>
-                  <span style={{ textAlign: "right" }}>5pm - 9pm</span>
-                </div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <strong>Tuesday</strong>
-                  <span style={{ textAlign: "right" }}>5pm - 9pm</span>
-                </div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <strong>Wednesday</strong>
-                  <span style={{ textAlign: "right" }}>5pm - 9pm</span>
-                </div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <strong>Thursday</strong>
-                  <span style={{ textAlign: "right" }}>12pm - 10pm</span>
-                </div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <strong>Friday</strong>
-                  <span style={{ textAlign: "right" }}>12pm - 10pm</span>
-                </div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <strong>Saturday</strong>
-                  <span style={{ textAlign: "right" }}>12pm - 10pm</span>
-                </div>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <strong>Sunday</strong>
-                  <span style={{ textAlign: "right" }}>1pm - 9pm</span>
-                </div>
-                <p style={{ fontSize: "0.95em", marginTop: "0.8em", fontWeight: "bold", color: "#000", textAlign: "center" }}>
-                  (our Café is now closed)
-                </p>
-              </div>
-            </div>
+            <OpeningHours />
           </div>
           <div className={styles.map}>
             <iframe
