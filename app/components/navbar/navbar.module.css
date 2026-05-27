@@ -99,6 +99,13 @@
   border-bottom: 1px solid var(--black);
   margin-bottom: 10px;
 }
+
+.hoursTitle {
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: var(--black);
+  text-align: center;
+}
 .follow{
   color: var(--black);
   margin-bottom: 10px;
@@ -150,6 +157,10 @@
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     margin-bottom: 10px;
+  }
+
+  .hoursTitle {
+    color: white;
   }
 
   .icon{

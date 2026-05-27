@@ -86,6 +86,19 @@
     background-color: var(--red);
   }
 
+.hoursImg {
+  width: 100%;
+  max-width: 160px;
+  display: block;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  transition: border 0.2s;
+}
+
+.hoursImg:hover {
+  border: 2px solid #c0392b;
+}
+
   .field{
     width: 90%;
     outline: none;

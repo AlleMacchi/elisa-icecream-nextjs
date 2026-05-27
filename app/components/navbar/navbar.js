@@ -3,7 +3,6 @@ import React from "react";
 import styles from "./navbar.module.css";
 import { FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
 import { SiDoordash, SiUbereats } from "react-icons/si";
-import OpeningHours from "../opening-hours/OpeningHours";
 
 export default function Navbar() {
   const [checked, setChecked] = React.useState(false);
@@ -71,7 +70,13 @@ export default function Navbar() {
               </div>
             </div>
             <div className={styles.tradeTime}>
-              <OpeningHours />
+              <p className={styles.hoursTitle}>Opening Hours</p>
+              <a href="https://share.google/1Gik58q0m4c6jITfC" target="_blank" rel="noopener noreferrer" style={{ display: "inline-block", cursor: "pointer" }}>
+                <img src="/GelatoClock.jpeg" alt="Updated opening hours on our Google profile" style={{ width: "100%", maxWidth: "160px", display: "block", border: "2px solid transparent", borderRadius: "8px", transition: "border 0.2s" }}
+                  onMouseEnter={e => e.currentTarget.style.border = "2px solid #c0392b"}
+                  onMouseLeave={e => e.currentTarget.style.border = "2px solid transparent"}
+                />
+              </a>
             </div>
             </div>
           

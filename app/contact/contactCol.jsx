@@ -2,8 +2,6 @@ import React from "react";
 import "./Contact.css";
 import styles from "./contact.module.css";
 import Head from "../components/head/head";
-import OpeningHours from "../components/opening-hours/OpeningHours";
-
 function ContactDetails2() {
   return (
     <>
@@ -23,7 +21,14 @@ function ContactDetails2() {
             <div>32-34 Perouse Road, Randwick NSW 2031</div>
             <div>Phone: 0430 568 805</div>
             <br></br>
-            <OpeningHours />
+            <p style={{ fontWeight: "bold", marginBottom: "6px", textAlign: "center" }}>Opening Hours</p>
+            <a href="https://share.google/1Gik58q0m4c6jITfC" target="_blank" rel="noopener noreferrer" style={{ display: "inline-block", cursor: "pointer" }}>
+              <img
+                src="/GelatoClock.jpeg"
+                alt="Updated opening hours on our Google profile"
+                className={styles.hoursImg}
+              />
+            </a>
           </div>
           <div className={styles.map}>
             <iframe
